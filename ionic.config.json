@@ -1,5 +1,7 @@
 {
   "name": "setapp",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "react"
 }

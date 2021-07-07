@@ -1,0 +1,85 @@
+@import url("../../theme/variables.css");
+
+.dash{
+    background: white;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.742) 11%, rgba(2,0,36,0) 100%), url("https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80");
+    background-position: center;
+    background-size: cover;
+    min-height: 20vh;
+    background-attachment: fixed;
+    
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-end;
+
+    padding: 5%;
+}
+
+.title{
+    color: white;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+
+.cssGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.mainCard{
+    position: relative;
+    margin: 0.2rem;
+}
+
+.selectCard{
+    display: flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    height: 25vh;
+    padding: 5%;
+}
+
+.titleCard{
+    font-size: 1.75rem;
+    margin: 0;
+}
+
+.cardLogo{
+    position: absolute;
+    font-size: 8rem;
+    color: rgba(255,255,255,0.25);
+    top: 0%;
+    left: 2.5%;
+}
+
+.buildPC{
+    --background: linear-gradient(241deg, rgba(var(--ion-color-warning-rgb),1) 0%, rgba(var(--ion-color-success-rgb),1) 100%);
+    grid-column: span 2;
+}
+
+.loadPC{
+    --background: linear-gradient(241deg, rgba(var(--ion-color-tertiary-rgb),1) 0%, rgba(var(--ion-color-danger-rgb),1) 100%);
+    font-size: 1rem;
+}
+
+.loadPC .titleCard{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.loadPC .selectCard{
+    justify-content:center;
+    align-items:center;
+}
+
+.viewList{
+    --background: linear-gradient(241deg, rgba(var(--ion-color-primary-rgb),1) 0%, rgba(var(--ion-color-success-rgb),1) 100%);
+    grid-column: span 2;
+}
+
+
+.checkTutorials{
+    --background: linear-gradient(241deg, rgba(var(--ion-color-secondary-rgb),1) 0%, rgba(var(--ion-color-tertiary-rgb),1) 100%);
+    grid-column: span 2;
+}   

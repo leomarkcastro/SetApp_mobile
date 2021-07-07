@@ -1,0 +1,40 @@
+@import url("../../theme/variables.css");
+
+.mainCard{
+    position: relative;
+    margin: 0.2rem;
+}
+
+.selectCard{
+    text-align: center;
+    margin: 10%;
+}
+
+.titleCard{
+    font-size: 1rem;
+    margin: 0;
+    color: white;
+}
+
+.cardLogo{
+    position: absolute;
+    font-size: 8rem;
+    color: rgba(255,255,255,0.25);
+    top: 0%;
+    left: 2.5%;
+}
+
+.createPC{
+    --background: linear-gradient(241deg, rgba(var(--ion-color-warning-rgb),1) 0%, rgba(var(--ion-color-tertiary-rgb),1) 100%);
+    font-size: 1rem;
+}
+
+.titleIcon{
+    font-size: 5rem;
+    color: white;
+}
+
+.cardGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

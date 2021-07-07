@@ -1,0 +1,74 @@
+@import url("../../theme/variables.css");
+
+.cssGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.mainCard{
+    position: relative;
+    margin: 0.75rem;
+}
+
+.selectCard{
+    display: flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    height: 25vh;
+    padding: 5%;
+}
+
+.titleCard{
+    font-size: 1.75rem;
+    margin: 0;
+    text-align: right;
+}
+
+.cardLogo{
+    position: absolute;
+    font-size: 8rem;
+    color: rgba(255,255,255,0.25);
+    top: 0%;
+    left: 2.5%;
+}
+
+.buildPC{
+    --background: linear-gradient(241deg, rgba(var(--ion-color-warning-rgb),1) 0%, rgba(var(--ion-color-success-rgb),1) 100%);
+    grid-column: span 2;
+}
+
+.loadPC{
+    --background: linear-gradient(241deg, rgba(var(--ion-color-tertiary-rgb),1) 0%, rgba(var(--ion-color-danger-rgb),1) 100%);
+    font-size: 1rem;
+}
+
+.loadPC .titleCard{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.loadPC .selectCard{
+    justify-content:center;
+    align-items:center;
+}
+
+.viewList{
+    --background: linear-gradient(241deg, rgba(var(--ion-color-primary-rgb),1) 0%, rgba(var(--ion-color-success-rgb),1) 100%);
+}
+
+
+.viewList .titleCard{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.viewList .selectCard{
+    justify-content:center;
+    align-items:center;
+}
+
+
+.checkTutorials{
+    --background: linear-gradient(241deg, rgba(var(--ion-color-secondary-rgb),1) 0%, rgba(var(--ion-color-tertiary-rgb),1) 100%);
+    grid-column: span 2;
+}   
