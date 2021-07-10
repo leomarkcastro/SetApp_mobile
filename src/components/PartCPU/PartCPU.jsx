@@ -300,7 +300,7 @@ class PartCPU extends React.Component {
 
     render(){
         return (
-            <IonCard button className={style.cardItem} color="light" onClick={this.onSelect.bind(this)}>
+            <IonCard button className={`${style.cardItem} ${this.props.incClass}`} color="light" onClick={this.onSelect.bind(this)}>
                 <div className={style.cardContent}>
 
                     <div className={style.cardSprite}
@@ -314,7 +314,7 @@ class PartCPU extends React.Component {
                     
                     <div className={style.cardInfo}>
                         <IonCardHeader>
-                            <IonCardTitle>{this.props["Part Name"]}</IonCardTitle>
+                            <IonCardTitle className="comps_title">{this.props["Part Name"]}</IonCardTitle>
                             <IonCardSubtitle>{this.props["Chipset Brand"] ? this.props["Chipset Brand"] : this.props["Manufacturer"]}</IonCardSubtitle>
                         </IonCardHeader>
                         <IonCardContent>

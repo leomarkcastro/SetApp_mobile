@@ -27,6 +27,16 @@ import style from "./BuildPage.module.css"
 import { addCircleOutline, refreshCircleOutline } from 'ionicons/icons';
 import PartCPU from "../../components/PartCPU/PartCPU";
 
+const colors = {
+    CPU : "blue",
+    Motherboard : "green",
+    Memory : "red",
+    Storage : "yellow",
+    GPU : "cyan",
+    Case : "magenta",
+    PSU : "gray"
+}
+
 class BuildPage extends React.Component {
 
     constructor(props){
@@ -35,11 +45,21 @@ class BuildPage extends React.Component {
         this.state = {
            show: true,
            toast_open: false,
+           total: 0,
+           total_div: {},
         }
 
+        this.slices = {}
+
         this.setState = this.setState.bind(this)
+
+        
     }
 
+    componentDidMount(){
+        this.get_price()
+    }
+    
     savePC(e){
         console.log("save")
         this.setState({...this.state, toast_open : true})
@@ -50,7 +70,44 @@ class BuildPage extends React.Component {
         this.props.update_name(e.detail.value)
     }
 
+    numberWithCommas(x) {
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+
+    get_price(){
+        let total_price = 0
+        let division_price = {}
+        let cur_price = 0
+
+        for(let part in this.props.parts){
+            division_price[part] = 0
+            for(let index in this.props.parts[part].element){
+                if (this.props.parts[part].element[index]){
+                    cur_price = Number(this.props.parts[part].element[index]["Price"])
+                    total_price += cur_price
+                    division_price[part] += cur_price
+                }
+
+            }
+        }
+
+        for(let part in division_price){
+            division_price[part] = division_price[part]/total_price * 100
+        }
+
+        this.slices = division_price
+
+        this.setState({...this.state, total:total_price, total_div:this.slices})
+
+        return total_price
+    }
+
     render(){
+
+        let cur_price = this.state.total
+
+        console.log(this.state)
+
         return (
             
             <IonPage>
@@ -82,7 +139,24 @@ class BuildPage extends React.Component {
                             <p>CPU Tower Type: {this.props.vars.TowerType || "_"}</p>
                             <p>M.2 Slots: {this.props.vars["M.2 Slots"] || "_"}</p>
                             <p>SATA Slots: {this.props.vars["SATA Slots"] || "_"}</p>
-                            <p>Total Cost: {this.props.vars.Cost || "_"}</p>
+                            <p>Total Cost: ${this.numberWithCommas(cur_price)} = P{this.numberWithCommas(cur_price*45)}</p>
+
+                            <div className={style.distribution_chart}>
+                                {
+                                    Object.keys(this.state.total_div).map((e,i) => (
+                                        <div style={{
+                                            flex: this.slices[e],
+                                            overflow : "hidden",
+                                        }}>
+                                            <div style={{
+                                                backgroundColor : colors[e],
+                                                height: "1rem",
+                                            }} /> 
+                                            {e}
+                                        </div>
+                                    ))
+                                }
+                            </div>
                         </IonToolbar> :
                         <></>
 

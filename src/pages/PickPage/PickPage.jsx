@@ -39,7 +39,7 @@ class PickPage extends React.Component {
         super(props)
         
         this.state = {
-           
+           search : "",
         }
 
         this.partsList = getparts(this.props.match.params.whatComp)
@@ -59,6 +59,24 @@ class PickPage extends React.Component {
         this.props.history.goBack()
     }
 
+    changeSearch(ev){
+        let st = {...this.state}
+        st.search = ev.detail.value
+        
+        this.setState(st)
+
+        let moods = document.querySelectorAll('.comps');
+        
+        requestAnimationFrame(() => {
+            moods.forEach(item => {
+                const shouldShow = item.querySelector('.comps_title').textContent.toLowerCase().indexOf(ev.detail.value.toLowerCase()) > -1;
+                item.style.display = shouldShow ? 'block' : 'none';
+            });
+        })
+        
+
+    }
+
     render(){
         return (
             
@@ -76,7 +94,7 @@ class PickPage extends React.Component {
                 <IonContent>
 
                 <IonToolbar>
-                    <IonSearchbar></IonSearchbar>
+                    <IonSearchbar onIonChange={this.changeSearch.bind(this)}></IonSearchbar>
                 </IonToolbar>
 
                 <IonListHeader>Results</IonListHeader>
@@ -85,6 +103,7 @@ class PickPage extends React.Component {
                 {
                     this.partsList.map((e,i) => (
                         <PartCPU 
+                            incClass="comps"
                             whatComp={this.props.match.params.whatComp} 
                             target={this.props.match.params.target}  
                             targetindex={this.props.match.params.targetindex}

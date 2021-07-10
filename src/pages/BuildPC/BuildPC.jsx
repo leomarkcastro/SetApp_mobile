@@ -54,6 +54,18 @@ class BuildPC extends React.Component {
             }, 250)
     }
 
+    load_build(dataset){
+
+        for(let part in dataset.parts){
+            for(let index in dataset.parts[part].element){
+                this.props.update_part(part, dataset.parts[part].element[index], index)
+
+            }
+        }
+
+        this.props.history.push('/build')
+    }
+
     render(){
         return (
             
@@ -81,7 +93,7 @@ class BuildPC extends React.Component {
                     {
                         this.props.save.map((e,i) => {
                             return (
-                                <IonCard key={`load_${i}`} color="tertiary">
+                                <IonCard key={`load_${i}`} color="tertiary" button onClick={this.load_build.bind(this, e)}>
                                     <IonCardHeader>
                                         <IonCardTitle>{e.vars.Name}</IonCardTitle>
                                     </IonCardHeader>
@@ -116,13 +128,14 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
     return {
-        update_part : (what, component) => { 
+        update_part : (what, component, index) => { 
             dispatch(
                 {
                     type: 'UPDATE_PART', 
                     value: {
                         key: what,
-                        content: component
+                        content: component,
+                        index: index,
                     }
                 }
             ) 
