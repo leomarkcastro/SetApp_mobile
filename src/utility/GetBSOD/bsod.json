@@ -37,12 +37,12 @@
     [
         "0x00000008",
         "This BSOD is uncommon. BSOD error code 0x00000008 may also show \"IRQL_NOT_DISPATCH_LEVEL\" on the same blue screen.",
-        null
+        "-  Run the online blue screen troubleshooter<br/>-  Perform a thorough disk cleanup<br/>-  Run the CHKDSK utility<br/>-  Update any outdated device drivers<br/>-  Restore your Windows system to an earlier working point<br/>-  Restore Deleted Files<br/>-  Start The Computer in Safe Mode<br/>-  Update a Driver With The Device Manager<br/>-  Use sfc /scannow To Check All System Files<br/>-  Check for Errors The Disk Where Windows Is Installed By Using The Command chkdsk c: /f<br/>-  Use The Mode of Compatibility With an Old Version of Windows<br/>-  Disable Unnecessary Programs in Windows Startup Menu<br/>-  Consult Microsoft Support Service<br/>-  Install Latest System Updates<br/>-  Scan The System For Viruses<br/>-  Test Your RAM<br/>-  Make a Clean Installation of Windows<br/>"
     ],
     [
         "0x00000009",
         "This BSOD is uncommon. BSOD error code 0x00000009 may also show \"IRQL_NOT_GREATER_OR_EQUAL\" on the same blue screen.",
-        "https://www.lifewire.com/how-to-fix-stop-0x00000009-errors-2624050"
+        "-  Run the online blue screen troubleshooter<br/>-  Perform a thorough disk cleanup<br/>-  Run the CHKDSK utility<br/>-  Update any outdated device drivers<br/>-  Restore your Windows system to an earlier working point<br/>-  Restore Deleted Files<br/>-  Start The Computer in Safe Mode<br/>-  Update a Driver With The Device Manager<br/>-  Use sfc /scannow To Check All System Files<br/>-  Check for Errors The Disk Where Windows Is Installed By Using The Command chkdsk c: /f<br/>-  Use The Mode of Compatibility With an Old Version of Windows<br/>-  Disable Unnecessary Programs in Windows Startup Menu<br/>-  Consult Microsoft Support Service<br/>-  Install Latest System Updates<br/>-  Scan The System For Viruses<br/>-  Test Your RAM<br/>-  Make a Clean Installation of Windows<br/>"
     ],
     [
         "0x0000000A",

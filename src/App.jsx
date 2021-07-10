@@ -28,8 +28,10 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 import Article from './pages/Article/Article';
+import BSOD_Solution from './pages/BSOD_Solution/BSOD_Solution';
 
 const App = () => (
+
   <IonApp>
       <IonReactRouter>
 
@@ -41,6 +43,7 @@ const App = () => (
           <Route exact path="/build" component={BuildPage} />
           <Route exact path="/pick/:whatComp/:target/:targetindex" component={PickPage} />
           <Route exact path="/article/sp/bsod" component={Article_BSOD} />
+          <Route exact path="/article/sp/bsod/solution" component={BSOD_Solution} />
           <Route exact path="/article/:article_index" component={Article} />
 
           <Redirect from="/" to="/init" exact/>
@@ -49,6 +52,7 @@ const App = () => (
 
       </IonReactRouter>
   </IonApp>
+
 );
 
 export default App;

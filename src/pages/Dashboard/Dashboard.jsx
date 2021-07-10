@@ -14,9 +14,13 @@ import {
     IonCardTitle,
     IonIcon,
 } from '@ionic/react';
+
 import { constructOutline, clipboardOutline, codeDownloadOutline, codeSlashOutline } from 'ionicons/icons';
 
 import style from "./Dashboard.module.css"
+
+
+const logo = require("./logo.png")
 
 class Dashboard extends React.Component {
 
@@ -43,7 +47,8 @@ class Dashboard extends React.Component {
                 <IonContent>
 
                     <div className={style.dash}>
-                        <p className={style.title}>Welcome!</p>
+                        {/*<p className={style.title}>Welcome!</p>*/}
+                        <img src={logo.default} width="50%"/>
                     </div>
                     
                     <div className={style.cssGrid}>

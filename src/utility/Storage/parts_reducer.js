@@ -1,40 +1,75 @@
 const saveSlot = "Parts"
 const ver = "09062021"
 
+const default_parts =  {
+    CPU : {
+        source: "CPUs",
+        element: [null],
+    },
+    Motherboard : {
+        source: "Motherboards",
+        element: [null],
+    },
+    Memory : {
+        source: "Memory",
+        element: [],
+    },
+    Storage : {
+        source: "Storage",
+        element: [],
+    },
+    GPU : {
+        source: "GPUs",
+        element: [null],
+    },
+    Case : {
+        source: "Cases",
+        element: [null],
+    },
+    PSU : {
+        source: "Power Supplies",
+        element: [null],
+    },
+}
+
+export const def_parts = {
+    CPU : {
+        source: "CPUs",
+        element: [null],
+    },
+    Motherboard : {
+        source: "Motherboards",
+        element: [null],
+    },
+    Memory : {
+        source: "Memory",
+        element: [],
+    },
+    Storage : {
+        source: "Storage",
+        element: [],
+    },
+    GPU : {
+        source: "GPUs",
+        element: [null],
+    },
+    Case : {
+        source: "Cases",
+        element: [null],
+    },
+    PSU : {
+        source: "Power Supplies",
+        element: [null],
+    },
+}
+
 const initialState = {
     ver: ver,
     uid : false,
     lastBackup: false,
     first_load: false,
     parts : {
-        CPU : {
-            source: "CPUs",
-            element: [null],
-        },
-        Motherboard : {
-            source: "Motherboards",
-            element: [null],
-        },
-        Memory : {
-            source: "Memory",
-            element: [],
-        },
-        Storage : {
-            source: "Storage",
-            element: [],
-        },
-        GPU : {
-            source: "GPUs",
-            element: [null],
-        },
-        Case : {
-            source: "Cases",
-            element: [null],
-        },
-        PSU : {
-            source: "Power Supplies",
-            element: [null],
-        },
+        ...default_parts
     },
     variables: {
         CPUSocket: null,
@@ -67,6 +102,8 @@ const parts_reducer = (state = initialState, actions) => {
             key = actions.value.key
             content = actions.value.content
             index = actions.value.index
+
+            console.log(content)
 
             switch(key){
                 case 'CPU':
@@ -112,7 +149,8 @@ const parts_reducer = (state = initialState, actions) => {
             }
 
             ret.parts[key].element[index] = content // should contain settings
-
+            
+            console.log(ret)
             return ret
         
         case 'UPDATE_NAME':

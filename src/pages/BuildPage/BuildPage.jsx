@@ -27,6 +27,8 @@ import style from "./BuildPage.module.css"
 import { addCircleOutline, refreshCircleOutline } from 'ionicons/icons';
 import PartCPU from "../../components/PartCPU/PartCPU";
 
+import {def_parts} from "../../utility/Storage/parts_reducer"
+
 const colors = {
     CPU : "blue",
     Motherboard : "green",
@@ -47,6 +49,7 @@ class BuildPage extends React.Component {
            toast_open: false,
            total: 0,
            total_div: {},
+           shit_fix: true,
         }
 
         this.slices = {}
@@ -102,6 +105,18 @@ class BuildPage extends React.Component {
         return total_price
     }
 
+    clearPCList(){
+
+        for(let part in this.props.parts){
+            for(let index in this.props.parts[part].element){
+                this.props.update_part(part, null, index)
+
+            }
+        }
+
+        this.setState({...this.state, shit_fix: !this.state.shit_fix})
+    }
+
     render(){
 
         let cur_price = this.state.total
@@ -111,6 +126,13 @@ class BuildPage extends React.Component {
         return (
             
             <IonPage>
+
+                {
+                    this.state.shit_fix ? 
+                    <></>
+                    :
+                    <></>
+                }
 
                 <IonHeader>
                     <IonToolbar color="secondary">
@@ -214,7 +236,7 @@ class BuildPage extends React.Component {
                     </IonButtons>
                     <IonTitle slot="center">Build PC</IonTitle>
                     <IonButtons slot="end">
-                        <IonButton>Clear</IonButton>
+                        <IonButton onClick={this.clearPCList.bind(this)}>Clear</IonButton>
                     </IonButtons>
                 </IonToolbar>
                 
@@ -236,13 +258,14 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
     return {
-        update_part : (what, component) => { 
+        update_part : (what, component, index) => { 
             dispatch(
                 {
                     type: 'UPDATE_PART', 
                     value: {
                         key: what,
-                        content: component
+                        content: component,
+                        index: index,
                     }
                 }
             ) 

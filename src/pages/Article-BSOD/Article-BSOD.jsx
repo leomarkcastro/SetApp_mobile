@@ -40,6 +40,14 @@ class Article_BSOD extends React.Component {
             popover_message: "",
             popover_title: "",
             popover_link: "",
+
+            popover2_event: null,
+            popover2_open: false,
+            popover2_message: "",
+            popover2_title: "",
+            popover2_link: "",
+
+            current: null,
             bsod_list: this.bsod,
             search: "",
         }
@@ -67,6 +75,17 @@ class Article_BSOD extends React.Component {
         })
         
 
+    }
+
+
+    openSolution(){
+        this.setState({...this.state, 
+            popover2_open:true, 
+            popover2_message:`${this.bsod[this.state.current][2] || "No Solution for this Error"}`,
+            popover2_title:`Solution for ${this.state.popover_title}`,
+            popover_open: false, 
+            popover_event: null
+        })
     }
 
     render(){
@@ -103,7 +122,8 @@ class Article_BSOD extends React.Component {
                                         popover_open:true, 
                                         popover_message:e[1],
                                         popover_title:e[0],
-                                        popover_link:e[2]
+                                        popover_link:e[2],
+                                        current: i,
                                     })}
                                     className="bsod_error"
                                     >
@@ -120,17 +140,29 @@ class Article_BSOD extends React.Component {
                     isOpen={this.state.popover_open}
                     onDidDismiss={() => this.setState({ ...this.state, popover_open: false, popover_event: null })}
                 >
+
                     <div className={style.popover_style}>
                         <h2>{this.state.popover_title}</h2>
                         <hr/>
                         <p>{this.state.popover_message}</p>
-                        {
-                            this.state.popover_link ?
-                            <IonButton href={this.state.popover_link}>Check fix online</IonButton>
-                            :
-                            <></>
-                        }
+                        <IonButton onClick={this.openSolution.bind(this)}>Check Solution</IonButton>
                     </div>
+
+                </IonPopover>
+
+                <IonPopover
+                    className={style.popover_solution}
+                    event={this.state.popover2_event}
+                    isOpen={this.state.popover2_open}
+                    onDidDismiss={() => this.setState({ ...this.state, popover2_open: false, popover2_event: null })}
+                >
+
+                    <div className={style.popover_style}>
+                        <h2>{this.state.popover2_title}</h2>
+                        <hr/>
+                        <p dangerouslySetInnerHTML={{__html: this.state.popover2_message}}></p>
+                    </div>
+
                 </IonPopover>
 
                 </IonContent>
