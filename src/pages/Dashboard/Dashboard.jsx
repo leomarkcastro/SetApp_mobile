@@ -13,14 +13,28 @@ import {
     IonCardHeader,
     IonCardTitle,
     IonIcon,
+    IonBackdrop,
+    IonSlides,
+    IonSlide
 } from '@ionic/react';
 
 import { constructOutline, clipboardOutline, codeDownloadOutline, codeSlashOutline } from 'ionicons/icons';
 
+// Import Swiper styles
+import "swiper/swiper.min.css";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+
 import style from "./Dashboard.module.css"
 
 
+
 const logo = require("./logo.png")
+const pcbuilder = require("./tab pcbuilder.png")
+const bsod = require("./tab bsod.png")
+const tips = require("./tab tips.png")
+
 
 class Dashboard extends React.Component {
 
@@ -33,10 +47,15 @@ class Dashboard extends React.Component {
 
     }
 
+    goto(loc){
+        this.props.history.push(loc)
+    }
+
     render(){
         return (
             
             <IonPage>
+              
 
                 <IonHeader>
                     <IonToolbar color="primary">
@@ -44,50 +63,38 @@ class Dashboard extends React.Component {
                     </IonToolbar>
                 </IonHeader>
 
-                <IonContent>
-
-                    <div className={style.dash}>
-                        {/*<p className={style.title}>Welcome!</p>*/}
-                        <img src={logo.default} width="50%"/>
-                    </div>
+                <IonContent >
                     
-                    <div className={style.cssGrid}>
 
-                        <IonCard className={`${style.mainCard} ${style.buildPC}`} button routerLink="/home/build">
-                            <IonIcon icon={constructOutline} className={style.cardLogo} />
-                            <div className={style.selectCard}>
-                                <IonCardTitle className={style.titleCard}>Build A PC Now!</IonCardTitle>
-                            </div>
-                        </IonCard>
-                        {/*
-                        <IonCard className={`${style.mainCard} ${style.loadPC}`} button>
-                            <div className={style.selectCard}>
-                                <IonCardTitle className={style.titleCard}>Load Layout!</IonCardTitle>
-                            </div>
-                        </IonCard>
+                    {/*<div className={`${style.cssGrid} ${style.dash}`}>*/}
 
-                        <IonCard className={`${style.mainCard} ${style.viewList}`} button>
-                            <div className={style.selectCard}>
-                                <IonCardTitle className={style.titleCard}>View Component List!</IonCardTitle>
-                            </div>
-                        </IonCard>
-                        */}
+                    {/*
+                    <Flickity
+                        elementType={'div'} // default 'div'
+                        options={flickityOptions} // takes flickity options {}
+                        disableImagesLoaded={false} // default false
+                        reloadOnUpdate // default false
+                        >
+                        
+                            <img src={pcbuilder.default} width="100%" height="500pt" style={{padding:"5%"}}/>
+                            <img src={tips.default} width="100%" height="500pt" style={{padding:"5%"}}/>
+                            <img src={bsod.default} width="100%" height="500pt" style={{padding:"5%"}}/>
+                    </Flickity>
+                    */}
 
-                        <IonCard className={`${style.mainCard} ${style.checkTutorials}`} button routerLink="/home/tutorials">
-                            <IonIcon icon={clipboardOutline} className={style.cardLogo} />
-                            <div className={style.selectCard}>
-                                <IonCardTitle className={style.titleCard}>Check Tutorials!</IonCardTitle>
-                            </div>
-                        </IonCard>
+                        <IonSlides className={style.slide_bg} style={{height:"100%"}} pager options={{loop: true}}>
 
-                        <IonCard className={`${style.mainCard} ${style.viewList}`} button routerLink="/article/sp/bsod">
-                            <IonIcon icon={codeSlashOutline} className={style.cardLogo} />
-                            <div className={style.selectCard}>
-                                <IonCardTitle className={style.titleCard}>BSOD Codes</IonCardTitle>
-                            </div>
-                        </IonCard>
+                            <IonSlide onClick={this.goto.bind(this,'/home/build')}><img src={pcbuilder.default} height="100%" style={{padding:"5%"}}/></IonSlide>
 
-                    </div>
+                            <IonSlide onClick={this.goto.bind(this,'/home/tutorials')}><img src={tips.default} height="100%" style={{padding:"5%"}}/></IonSlide>
+
+                            <IonSlide onClick={this.goto.bind(this,'/article/sp/bsod')}><img src={bsod.default} width="100%" height="500pt" style={{padding:"5%"}}/></IonSlide>
+
+                        </IonSlides>
+ 
+                        
+
+                    {/*</div>*/}
                     
                    
                 </IonContent>

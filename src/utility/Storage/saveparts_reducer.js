@@ -74,12 +74,24 @@ const saveparts_reducer = (state = initialState, actions) => {
                 ...state,
             }
 
-            content = actions.value.content
-            variables = actions.value.variables
+            content = JSON.parse(JSON.stringify(actions.value.content))
+            variables = JSON.parse(JSON.stringify(actions.value.variables))
 
             
 
             ret.saves.push(save_format(content, variables)) // should contain settings
+
+            db_set(saveSlot, ret)
+            return ret
+
+        case 'REMOVE_PART':
+
+            ret = {
+                ...state,
+            }
+
+
+            ret.saves.splice(actions.value,1) // should contain settings
 
             db_set(saveSlot, ret)
             return ret

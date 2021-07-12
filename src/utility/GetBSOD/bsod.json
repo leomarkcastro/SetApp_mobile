@@ -2,37 +2,42 @@
     [
         "0x00000001",
         "This BSOD means that there has been a mismatch in the APC state index. BSOD error code 0x00000001 may also show \"APC_INDEX_MISMATCH\" on the same blue screen.",
-        null
+        "-System Restore<br/>-Repair the Boot Configuration Data<br/>-Run Start-up Repair<br/>-Run Check Disk to Find and Fix Hard Disk Errors.<br/>-Diagnose Hard Disk's Health.<br/>"
     ],
     [
         "0x00000002",
         "This BSOD is uncommon. BSOD error code 0x00000002 may also show \"DEVICE_QUEUE_NOT_BUSY\" on the same blue screen.",
-        null
+        "<br/>-Remove printer driver <br/>-Reinstall printer driver-Delete this registry key: HKEY_LOCAL_MACHINESYSTEMCurrentControlSetControlSession ManagerPendingFileRenameOperations <br/>-If there are any subfolders with the names from 1 to 499 in c:WindowsSystem32spoolprtprocsx64, delete all of them but for winprint.dll <br/>-Delete all Print Processors and drivers (except winprint) from HKLMSYSTEMCurrentControlSetControlPrintEnvironments <br/>-Restart your computer and add the print<br/>"
     ],
     [
         "0x00000003",
         "This BSOD is uncommon. BSOD error code 0x00000003 may also show \"INVALID_AFFINITY_SET\" on the same blue screen.",
-        null
+        "<br/>-Manually Run system File Checker Tool <br/>-Fix Windows Registry Corrupted Files <br/>-Repair windows using installation disc <br/>-Clean installation<br/>"
+
     ],
     [
         "0x00000004",
         "This BSOD is uncommon. BSOD error code 0x00000004 may also show \"INVALID_DATA_ACCESS_TRAP\" on the same blue screen.",
-        "https://www.lifewire.com/how-to-fix-stop-0x00000004-errors-2624045"
+        "<br/>-Restart computer <br/>-Reconfigure newly installed device <br/>-Rollback driver <br/>-Reinstall driver -Scan computer for viruses <br/>-Clr CMOS -Run Disk check<br/>"
+
     ],
     [
         "0x00000005",
         "This BSOD is uncommon. BSOD error code 0x00000005 may also show \"INVALID_PROCESS_ATTACH_ATTEMPT\" on the same blue screen.",
-        null
+        "<br/>-Use the System File Checker tool to repair missing or corrupted system files <br/>-Reset store <br/>-Create a new User Account<br/>"
+
     ],
     [
         "0x00000006",
         "This BSOD is uncommon. BSOD error code 0x00000006 may also show \"INVALID_PROCESS_DETACH_ATTEMPT\" on the same blue screen.",
-        "https://www.lifewire.com/how-to-fix-stop-0x00000006-errors-2624047"
+        "<br/>-Remove printer driver <br/>-Reinstall printer driver-Delete this registry key: HKEY_LOCAL_MACHINESYSTEMCurrentControlSetControlSession ManagerPendingFileRenameOperations <br/>-If there are any subfolders with the names from 1 to 499 in c:WindowsSystem32spoolprtprocsx64, delete all of them but for winprint.dll <br/>-Delete all Print Processors and drivers (except winprint) from HKLMSYSTEMCurrentControlSetControlPrintEnvironments <br/>-Restart your computer and add the print<br/>"
+
     ],
     [
         "0x00000007",
         "This BSOD is uncommon. BSOD error code 0x00000007 may also show \"INVALID_SOFTWARE_INTERRUPT\" on the same blue screen.",
-        "https://www.lifewire.com/how-to-fix-stop-0x00000007-errors-2624048"
+        "<br/>-Restore Deleted Files -Start The Computer in Safe Mode <br/>-Update a Driver with The Device Manager <br/>-Use sfc scannow To Check All System Files <br/>-Check for Errors the Disk Where Windows Is Installed By Using The Command chkdsk c: f<br/>"
+
     ],
     [
         "0x00000008",
@@ -42,1266 +47,1493 @@
     [
         "0x00000009",
         "This BSOD is uncommon. BSOD error code 0x00000009 may also show \"IRQL_NOT_GREATER_OR_EQUAL\" on the same blue screen.",
-        "-  Run the online blue screen troubleshooter<br/>-  Perform a thorough disk cleanup<br/>-  Run the CHKDSK utility<br/>-  Update any outdated device drivers<br/>-  Restore your Windows system to an earlier working point<br/>-  Restore Deleted Files<br/>-  Start The Computer in Safe Mode<br/>-  Update a Driver With The Device Manager<br/>-  Use sfc /scannow To Check All System Files<br/>-  Check for Errors The Disk Where Windows Is Installed By Using The Command chkdsk c: /f<br/>-  Use The Mode of Compatibility With an Old Version of Windows<br/>-  Disable Unnecessary Programs in Windows Startup Menu<br/>-  Consult Microsoft Support Service<br/>-  Install Latest System Updates<br/>-  Scan The System For Viruses<br/>-  Test Your RAM<br/>-  Make a Clean Installation of Windows<br/>"
+        "<br/>-Restore Deleted Files <br/>-Start The Computer in Safe Mode <br/>-Update a Driver With The Device Manager <br/>-Use sfc scannow To Check All System Files <br/>-Check for Errors The Disk Where Windows Is Installed By Using The Command chkdsk c: f <br/>-Use The Mode of Compatibility With an Old Version of Windows <br/>-Disable Unnecessary Programs in Windows Startup Menu <br/>-Consult Microsoft Support Service <br/>-Install Latest System Updates <br/>-Scan The System For Viruses <br/>-Test Your RAM <br/>-Make a Clean Installation of Windows<br/>"
     ],
     [
         "0x0000000A",
         "This BSOD means that Microsoft Windows or a kernel-mode\ndriver accessed paged\nmemory at DISPATCH_LEVEL or above. BSOD error code 0x0000000A may also show \"IRQL_NOT_LESS_OR_EQUAL\" on the same blue screen.",
-        null
+        "-Check your system using system file checker<br/>- Update Windows (XP, 7, 8, 10, Vista)<br/>-Driver Update<br/>-Restoring System<br/>Check Hardware drive corruption<br/>-Malware Scan<br/>"
     ],
     [
         "0x0000000B",
         "This BSOD is uncommon. BSOD error code 0x0000000B may also show \"NO_EXCEPTION_HANDLING_SUPPORT\" on the same blue screen.",
-        null
+        "-Restart the computer first.<br/>-Uninstall the recently installed applications.<br/>- Remove the unwanted files from the computer.<br/>-Run a strong antivirus tool to fix virus issue.<br/>-Check the hard disk damaging.<br/>Again restart the computer.<br/>"
+
     ],
     [
         "0x0000000C",
         "This BSOD means that the current thread exceeded the permitted number of wait objects. BSOD error code 0x0000000C may also show \"MAXIMUM_WAIT_OBJECTS_EXCEEDED\" on the same blue screen.",
-        null
+        "<br/>-Run a system file scan<br/>-Run a CHKDSK scan<br/>-Update device drivers<br/>-Check for Windows 10 updates<br/>-Disable Remote Desktop connections<br/>"
+
     ],
     [
         "0x0000000D",
         "This BSOD is uncommon. BSOD error code 0x0000000D may also show \"MUTEX_LEVEL_NUMBER_VIOLATION\" on the same blue screen.",
-        null
+        "<br/>-First, try restarting the computer in Safe Mode<br/>-Uninstall recently installed applications and programs<br/>-Run a powerful anti-virus tool to remove viruses<br/>-Change the firewall settings<br/>-Repair damaged registry and system files<br/>-Check the hard disk with the command chkdsk f<br/>-Restart the computer<br/>"
+
     ],
     [
         "0x0000000E",
         "This BSOD is uncommon. BSOD error code 0x0000000E may also show \"NO_USER_MODE_CONTEXT\" on the same blue screen.",
-        null
+        "<br/>-Check Physical Device Connections<br/>-Rebuild Boot Configuration Data File<br/>-Run Windows Repair Utility<br/>-Enable Windows 8.1 and 10 WHQL Support Setting in BIOS<br/>-Reset the BIOS and UEFI Configuration<br/>-Mark Boot Disk as Online<br/>-Reinstall Windows 10<br/>"
+
     ],
     [
         "0x0000000F",
         "This BSOD means that a request for a spin lock has been initiated when the spin lock was already owned. BSOD error code 0x0000000F may also show \"SPIN_LOCK_ALREADY_OWNED\" on the same blue screen.",
-        null
+        "<br/>-Execute Built-In Troubleshooter<br/>-Check System RAM<br/>-Boot in Safe Mode<br/>-Fixate Missing Drivers<br/>"
+
     ],
     [
         "0x00000010",
         "This BSOD is uncommon. BSOD error code 0x00000010 may also show \"SPIN_LOCK_NOT_OWNED\" on the same blue screen.",
-        null
+        "<br/>-Free up space on your storage<br/>-Update drivers<br/>-Rollback driver update<br/>-Restore deleted files<br/>"
+
     ],
     [
         "0x00000011",
         "This BSOD is uncommon. BSOD error code 0x00000011 may also show \"THREAD_NOT_MUTEX_OWNER\" on the same blue screen.",
-        null
+        "<br/>-First of all you should check the compatibility of the program that you want to access<br/>-Check the hard disk damaging status<br/>-Run a strong antivirus program<br/>-Uninstall the recently installed applications<br/>-Run SFC SCANNOW command<br/>-Run CHKDSK F command<br/>-You can also restore the computer to the most recent restoring point<br/>"
+
     ],
     [
         "0x00000012",
         "This BSOD means that an unknown exception has occurred. BSOD error code 0x00000012 may also show \"TRAP_CAUSE_UNKNOWN\" on the same blue screen.",
-        null
+        "<br/>-Go to the start button<br/>-Type CMD in the search bar<br/>-Right click on it and open as an administrator<br/>-In the command prompt type the following command and hit Enter. SFC SCANNOW<br/>-A scanning process will get continue now<br/>-Restart the computer after the completing of scanning process<br/>"
+
     ],
     [
         "0x00000013",
         "This BSOD is uncommon. BSOD error code 0x00000013 may also show \"EMPTY_THREAD_REAPER_LIST\" on the same blue screen.",
-        null
+        "<br/>-FIX 1: Run the SFC scannow command<br/>-FIX 2- System restoration<br/>-FIX 3- Check hard disk<br/>-FIX 4- Uninstall your recently installed application from the system<br/>-FIX 5- Run an anti-virus scanner<br/>"
+
     ],
     [
         "0x00000014",
         "This BSOD is uncommon. BSOD error code 0x00000014 may also show \"CREATE_DELETE_LOCK_NOT_LOCKED\" on the same blue screen.",
-        null
+        "<br/>-FIX 1- Roll back the driver<br/>-FIX 2- Restoring to the most recent point<br/>-FIX 3- Reboot your system or Run an anti-virus software scan<br/>"
     ],
     [
         "0x00000015",
         "This BSOD is uncommon. BSOD error code 0x00000015 may also show \"LAST_CHANCE_CALLED_FROM_KMODE\" on the same blue screen.",
-        null
+        "<br/>-FIX 1- Enable WIA and SHELL HW detection<br/>-FIX 2- Search and install the printer drivers<br/>"
+
     ],
     [
         "0x00000016",
         "This BSOD is uncommon. BSOD error code 0x00000016 may also show \"CID_HANDLE_CREATION\" on the same blue screen.",
-        null
+        "<br/>-Step 1: Uninstall all the traces of Nvidia components from your computer<br/>-a.Click on Start; in the start search type devmgmt.msc and hit Enter<br/>-b.Expand display driver.<br/>-c.Right click on Nvidia component and then uninstall.<br/>-Step 2: Download and install the latest Nvidia driver from the link give below<br/>-Step 3: Download and install the latest Zune software<br/>"
+
     ],
     [
         "0x00000017",
         "This BSOD is uncommon. BSOD error code 0x00000017 may also show \"CID_HANDLE_DELETION\" on the same blue screen.",
-        "https://www.lifewire.com/how-to-fix-stop-0x00000017-errors-2624060"
+        "<br/>-Method 1: Clean the BCD Bad Memory Entries<br/>-Method 2: Reset Windows Update Components<br/>-Method 2: Reset Windows Update Components<br/>-Method 4: Execute DISM Tool Using the Command Prompt<br/>-Method 5: Use Windows Installation Media<br/>-Method 6: Check to be Sure BITS Service is Running<br/>-Method 7: Change DNS Settings<br/>-Method 8: Perform a Clean Windows 10 Install<br/>"
     ],
     [
         "0x00000018",
         "This BSOD means that the reference count of an object is illegal for the current state of the object. BSOD error code 0x00000018 may also show \"REFERENCE_BY_POINTER\" on the same blue screen.",
-        null
+        "<br/>-Fix 1: Scan for Malware<br/>-Fix 2: Temporarily Disable Your Antivirus<br/>-Fix 3: Update Your Windows<br/>-Fix 4: Clean Boot Your Computer<br/>-Fix 5: Update Your Graphics Driver<br/>-Fix 6: Use the System File Checker Utility<br/>-Fix 7: Run DISM Command<br/>-Fix 8: Check If Your PC Is Overheating<br/>-Fix 9: Check Your Hardware<br/>-Fix 10: Recover Data and Reinstall Windows<br/>"
     ],
     [
         "0x00000019",
         "This BSOD means that a pool header is corrupt. BSOD error code 0x00000019 may also show \"BAD_POOL_HEADER\" on the same blue screen.",
-        null
+        "<br/>-Disable Windows Indexing Service To Fix Bad Pool Header BSOD<br/>-Disable Fast Startup In Windows 10<br/>-Disconnect All Connected External Devices Except Your Keyboard And Mouse<br/>-Undo Recent Changes On Your Windows Computer<br/>-Scan And Repair Corrupted Windows System Files<br/>"
+
     ],
     [
         "0x0000001A",
         "This BSOD means that a severe memory management error occurred. BSOD error code 0x0000001A may also show \"MEMORY_MANAGEMENT\" on the same blue screen.",
-        null
+        " - Check your RAM <br/> - Clear any existed viruses <br/> - Uninstall newly installed hardware or software <br/> - Give your computer enough storage space <br/> - Update your driver <br/> - Repair system files <br/> - Repair hard disk errors <br/> - Restore from a restore point <br/>"
+
     ],
     [
         "0x0000001B",
         "This BSOD is uncommon. BSOD error code 0x0000001B may also show \"PFN_SHARE_COUNT\" on the same blue screen.",
-        null
+        " - Use System Restore in Windows 10 <br/> - If you have recently installed software or upgraded your hardware, <br/> try uninstalling the software or removing the hardware. <br/>"
+
     ],
     [
         "0x0000001C",
         "This BSOD is uncommon. BSOD error code 0x0000001C may also show \"PFN_REFERENCE_COUNT\" on the same blue screen.",
-        "https://www.lifewire.com/how-to-fix-stop-0x0000001c-errors-2624062"
+        " - Uninstall recent installed softwares. <br/> - Upgrade your windows system. <br/> - Run [SFC] to resolve Error Code 0x0000001c error. <br/>"
+
     ],
     [
         "0x0000001D",
         "This BSOD is uncommon. BSOD error code 0x0000001D may also show \"NO_SPIN_LOCK_AVAILABLE\" on the same blue screen.",
-        "https://www.lifewire.com/how-to-fix-stop-0x0000001d-errors-2624063"
+        " - Run ChkDsk <br/> - Run SFC scan <br/> - Run the Hardware and Devices Troubleshooter <br/> - Clear Temps folder <br/> - Assign Full Control permissions on the drive<br/>"
+
     ],
     [
         "0x0000001E",
         "This BSOD means that a kernel-mode program generated an exception which the error handler did not catch. BSOD error code 0x0000001E may also show \"KMODE_EXCEPTION_NOT_HANDLED\" on the same blue screen.",
-        null
+        " - Fix the faulty RAM <br/> - Solve drivers problem <br/> - Clear viruses or malware <br/> - Remove the antivirus program <br/> - System Restore <br/>"
+
     ],
     [
         "0x0000001F",
         "This BSOD is uncommon. BSOD error code 0x0000001F may also show \"SHARED_RESOURCE_CONV_ERROR\" on the same blue screen.",
-        null
+        " - Press Windows + R, and type regedit. <br/> - Navigate to: <br/> HKLM_system_CurrentControlSet_Control_Print_Environments_Windows NT x86_Drivers_Version 3 <br/> Delete all the keys here! <br/> - Find %systemroot%_system32_spool_printers <br/> Delete all the files and folders here. <br/> - Go to %systemroot%_system32_spool_drivers_w32x86_3 <br/> Delete all the files and folders here. <br/> - Go to %systemroot%_system32_spool_drivers_w32x86_ <br/> Delete all the files and folders here. <br/> - Restart your computer and connect your printer."
+
     ],
     [
         "0x00000020",
         "This BSOD means that an asynchronous procedure call (APC) was still pending when a thread exited. BSOD error code 0x00000020 may also show \"KERNEL_APC_PENDING_DURING_EXIT\" on the same blue screen.",
-        null
+        " - Go to start then search for printers and scanners <br/> - CLICK ADD PRINTER YOU WANT TO INSTALL <br/> - SELECT A ADD LOCAL PRINTER THEN NEXT <br/> - CHOOSE A PRINTER PORT WINDOW, <br/> NEXT USE AND EXISTING PORT (SELECTED BY DEFAULT) <br/> - SELECT PRINTERS MANUFACTURERS NAME AND MODEL NUMBER <br/> - CLICK NEXT <br/> - ONCE THE PRINTER IS SUCCESSFULLY ADDED CLICK FINISH "
+
     ],
     [
         "0x00000021",
         "This BSOD means that quota charges have been mishandled by returning more quota to a particular block than was previously charged. BSOD error code 0x00000021 may also show \"QUOTA_UNDERFLOW\" on the same blue screen.",
-        null
+        " - Always Keep your Windows Up-to-date <br/> - Update your drivers <br/> - Go to device manager <br/> - Choose update driver for every device <br/>  - Restart your system "
+
     ],
     [
         "0x00000022",
         "This BSOD is uncommon. BSOD error code 0x00000022 may also show \"FILE_SYSTEM\" on the same blue screen.",
-        null
+        " Check for Permission Settings <br/> Step 1. Right click on the application that you encountered the error on your PC. <br/> Step 2. Choose Properties from the context menu. <br/> Step 3. Navigate to the Security tab. <br/> Run System File Checker <br/> - Type cmd in the Windows 10 Cortana search box. <br/> Then right click the best match Command Prompt and choose Run as administrator. <br/> - Type the sfc /scannow in the Command Prompt window and press Enter to repair system files. <br/> - Change permissions for all the Administrators, <br/> Power Users and System to Allow Full Control. <br/> - At last, click Apply. <br/> Solution 3. Enable DirectPlay <br/> Step 1. Right-click Windows Start menu and choose Run. In the Run dialog box, type appwiz.cpl and hit Enter. <br/> Step 2. Click Turn Windows features on or off on the left of the pane. <br/> Step 3. Scroll down to find Legacy Components. <br/> Then check the box next to Legacy Components. <br/> Step 5. Click OK to save the change. <br/> Step 6. Then your PC will configure the required files to enable DirectPlay. <br/> When you see the message” Windows completed the requested changes”, <br/> you can close the window."
+
     ],
     [
         "0x00000023",
         "This BSOD means that a problem occurred in the\nFAT file system. BSOD error code 0x00000023 may also show \"FAT_FILE_SYSTEM\" on the same blue screen.",
-        null
+        " 1). Run CHKDSK to fix computer hard drive <br/> 2). Disable any antivirus, backup or the like apps <br/> 3). Clean computer hard drive fragments <br/> 4). Check Windows operating systems "
+
     ],
     [
         "0x00000024",
         "This BSOD means a problem occurred in ntfs.sys, the driver\nfile that allows the system to read and write to\nNTFS drives. BSOD error code 0x00000024 may also show \"NTFS_FILE_SYSTEM\" on the same blue screen.",
-        null
+        " Run chkdsk <br/> Use SFC to correct disk errors <br/> Check your disk for Viruses "
+
     ],
     [
         "0x00000025",
         "This BSOD means that a problem occurred in the NPFS\nfile system. BSOD error code 0x00000025 may also show \"NPFS_FILE_SYSTEM\" on the same blue screen.",
-        null
+        " Check CD/DVD drive for error to fix CDFS_FILE_SYSTEM <br/> Disable Automatic restart <br/> Detect RAM issues <br/> Make all your drivers up-to-date <br/> Unplug external hardware to fix CDFS_FILE_SYSTEM <br/> Resolve system corruption <br/> Uninstall third-party antimalware program to fix CDFS_FILE_SYSTEM"
+
     ],
     [
         "0x00000026",
         "This BSOD means that a problem occurred in the CD file system. BSOD error code 0x00000026 may also show \"CDFS_FILE_SYSTEM\" on the same blue screen.",
-        null
+        " - Make sure that the IDE (SCSI) drivers are OK. <br/> It is preferable to reinstall them. <br/> - Check that the disk drive is working. <br/> This applies not only to DVD-ROM, but also to HDD (SSD). <br/> - Disable antivirus software. ... <br/> - Update the OS. ... <br/> - Check the file system for errors. ... <br/> - Free up space on the local disk."
+
+
     ],
     [
         "0x00000027",
         "This BSOD means that a problem occurred in the SMB redirector file system. BSOD error code 0x00000027 may also show \"RDR_FILE_SYSTEM\" on the same blue screen.",
-        null
+        " - Check Windows Crash Logs. <br/> - Update Drivers. <br/> - Update Windows. <br/> - Run SFC and DISM to Repair System Files. <br/> - Check for Disk Error. <br/> - Uninstall Third-party Anti-virus Software. <br/> - Run Windows Defender. <br/> - Test RAM or Add Memory Bar "
+
+
     ],
     [
         "0x00000028",
         "This BSOD is uncommon. BSOD error code 0x00000028 may also show \"CORRUPT_ACCESS_TOKEN\" on the same blue screen.",
-        null
+        " - Restart the computer in “SAFE MODE <br/> - Reinstalling the Program that Causes the Error <br/> - Update the Window - <br/> Use a Registry Cleaner <br/> - Scan your System <br/> - Scan your System <br/> - Perform DISM <br/> - Check the Hard Drive for Corruption"
+
+
     ],
     [
         "0x00000029",
         "This BSOD is uncommon. BSOD error code 0x00000029 may also show \"SECURITY_SYSTEM\" on the same blue screen.",
-        null
+        " - Manually Run system File Checker Tool <br/> - Fix Windows Registry Corrupted File <br/> -  Repair windows using installation disc <br/> - Clean installation "
+
+
     ],
     [
         "0x0000002A",
         "This BSOD means that an IRP was found to contain inconsistent information. BSOD error code 0x0000002A may also show \"INCONSISTENT_IRP\" on the same blue screen.",
-        null
+        " Solution 1 Press Windows Key + X to open Power User Menu. <br/> Select Device Manager from the list <br/> Once Device Manager opens, locate the driver you wish to update, <br/> right-click it and choose Update Driver Software. <br/> Select Search automatically for updated driver <br/> software and wait for Windows 10 <br/> to download the driver. <br/> Repeat this process for all the devices you want to update. <br/> Solution 2: <br/> -Run the SFC scan <br/> -Right-click on the Start Menu button, <br/> and open Command Prompt (Admin). <br/> - Enter the following line and press Enter: sfc/scannow <br/> - Wait until the process is done (it may take a while). <br/> - If the solution is found, it will automatically be applied. <br/> - Now, close the Command Prompt and restart your computer."
+
+
     ],
     [
         "0x0000002B",
         "This BSOD means that the kernel mode stack was overrun. BSOD error code 0x0000002B may also show \"PANIC_STACK_SWITCH\" on the same blue screen.",
-        null
+        " Check for Windows Updates <br/> Scan device performance and health <br/> Run windows defender online <br/> Uninstall recently installed software <br/> Unplug or uninstall external hardware <br/> Toggle fast startup <br/> Uninstall recent Updates via Safe Mode <br/> Run System Restore"
+
+
     ],
     [
         "0x0000002C",
         "This BSOD is uncommon. BSOD error code 0x0000002C may also show \"PORT_DRIVER_INTERNAL\" on the same blue screen.",
-        null
+        " You can do it manually in the Windows device manager by taking the following steps: <br/> Press Windows button and type device manager on the keyboard. <br/> Choose Device Manager from the list. <br/> View the list of device categories and click on the arrow nest <br/> to the category in which your new device falls. The driver can be marked with a yellow triangle. <br/> Right-click on the device name and press Update Driver Software. <br/> Then a window of Update Driver Software with two options will appear: <br/> Search automatically for updated driver software. <br/> Windows will automatically check availability of the best suitable driver for this device. <br/> Browse my computer for driver software. <br/> Use this option to show the OS where the driver files are kept."
+
+
     ],
     [
         "0x0000002D",
         "This BSOD is uncommon. BSOD error code 0x0000002D may also show \"SCSI_DISK_DRIVER_INTERNAL\" on the same blue screen.",
-        null
+        " Solution 1 - Updating your drivers <br/> Solution 2 - Update Windows <br/> Solution 3 - Start your PC in Safe Mode <br/> Solution 4 - Run a System File Integrity Check <br/> Solution 5 - Disabling third-party software on Windows Startup"
+
+
     ],
     [
         "0x0000002E",
         "This BSOD means that a parity error in system memory has been detected. BSOD error code 0x0000002E may also show \"DATA_BUS_ERROR\" on the same blue screen.",
-        null
+        " Deal with memory issues at the earliest <br/> - Keep Video Card drivers up to date <br/> - Eliminate Malware by using Windows Security <br/> - Deal with bad sectors of the Hard Drive <br/> - Install Windows Updates to Fix DATA BUS ERROR <br/> - Use Windows Blue Screen Troubleshooter <br/> - Use System File Checker <br/> - Repair the Faulty Windows Image Files <br/> - Update BIOS to Fix Data Bus Error <br/> - Start the System in reliable Safe Mode <br/> - Remove the program with the same functionality <br/> - To fix Data Bus Error use Disk Cleanup <br/> - Dismiss unwanted Windows Update Files <br/> - Perform a cycle of add or remove additional Hard Drive <br/> - To fix Data Bus Error Disable Automatic Reboot <br/> - Remove Third-party Antivirus <br/> - To Fix Data Bus Error perform System Restore "
+
+
     ],
     [
         "0x0000002F",
         "This BSOD is uncommon. BSOD error code 0x0000002F may also show \"INSTRUCTION_BUS_ERROR\" on the same blue screen.",
-        null
+        " - Restore Deleted Files <br/> - Start The Computer in Safe Mode <br/> - Update a Driver With The Device Manager <br/> - Check for Errors The Disk Where Windows Is Installed <br/> By Using The Command chkdsk c:/f <br/> - Disable Unnecessary Programs in Windows Startup Menu <br/> - Make a Clean Installation of Windows"
+
+
     ],
     [
         "0x00000030",
         "This BSOD means that the stack pointer in a trap frame had an invalid value. BSOD error code 0x00000030 may also show \"SET_OF_INVALID_CONTEXT\" on the same blue screen.",
-        null
+        " - Check for windows update <br/> - Run windows defender offline <br/> - Uninstall recently installed software <br/> - Toggle fast startup <br/> - Roll back updates on safe mode <br/> - Run system restore"
+
+
     ],
     [
         "0x00000031",
         "This BSOD means that system initialization failed. BSOD error code 0x00000031 may also show \"PHASE0_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        " - Update Drivers <br/> - Check For System File Errors With SFC <br/> - Check For Hard Disk Errors"
+
+
     ],
     [
         "0x00000032",
         "This BSOD means that system initialization failed. BSOD error code 0x00000032 may also show \"PHASE1_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        " - Change SATA operation from RAID to AHCI. <br/> - Open Command Prompt as Admin. <br/> - Type bcdedit /set {current} safeboot minimal and hit enter. <br/> - Restart your computer and enter BIOS. <br/> - Change the SATA operation to AHCI. <br/> - Save the setting and exit. Windows will boot in safe mode. <br/> - Open Command Prompt as Admin. <br/> - Type bcdedit /deletevalue {current} safeboot and hit enter. <br/> - Restart your device."
+
+
     ],
     [
         "0x00000033",
         "This BSOD is uncommon. BSOD error code 0x00000033 may also show \"UNEXPECTED_INITIALIZATION_CALL\" on the same blue screen.",
-        null
+        " - Free up space on the system disk<br/> - Check that the drive and RAM are working<br/> - Install Windows updates<br/>"
+
     ],
     [
         "0x00000034",
         "This BSOD means that a problem occurred in the file system's cache manager. BSOD error code 0x00000034 may also show \"CACHE_MANAGER\" on the same blue screen.",
-        null
+        " - Run Windows automatic repair<br/> - Manually repair the error<br/> - Refresh Your PC<br/>"
+
     ],
     [
         "0x00000035",
         "This BSOD occurs when the IoCallDriver packet has no more stack locations remaining BSOD error code 0x00000035 may also show \"NO_MORE_IRP_STACK_LOCATIONS\" on the same blue screen.",
-        null
+        " - First Tip: Check if you have sufficient available space on the system drive.<br/> - Second Tip: Consider whether you recently installed any hardware component or new program.<br/> - Third Tip: Ensure that your system has not been infected by viruses or malware.<br/> - Fourth Tip: Ensure that you have the latest service packs and all the necessary updates installed on your system.<br/> - Fifth Tip: Update all the drivers of your hardware.<br/> - Sixth Tip: Make sure that all the cards, internal cables, and other parts are installed properly.<br/> - Seventh Tip: Try running diagnostic tests on all hardware.<br/> - Eighth Tip: You can also try updating your BIOS to get rid of the Blue Screen of Death error.<br/> - Ninth Tip: Try booting your system with the vital hardware only.<br/>"
+
     ],
     [
         "0x00000036",
         "This BSOD means that a driver attempted to delete a device object that still had a positive reference count. BSOD error code 0x00000036 may also show \"DEVICE_REFERENCE_COUNT_NOT_ZERO\" on the same blue screen.",
-        null
+        " - Use System Restore<br/> - Use Safe Mode To Start And Troubleshoot Windows<br/> - Update Device Drivers To Fix The Device_Reference_Count_Not_Zero Error<br/>"
+
     ],
     [
         "0x00000037",
         "This BSOD is uncommon. BSOD error code 0x00000037 may also show \"FLOPPY_INTERNAL_ERROR\" on the same blue screen.",
-        null
+        " - Restore deleted files.<br/> - Start the computer in safe mode.<br/> - Update a driver with e device manager.<br/> - Check for Errors The Disk Where Windows Is Installed By Using The Command chkdsk c: /f<br/> - Install the latest system updates.<br/> - Scan The System For Viruses<br/> - Test your RAM<br/> - Make a clean Installation of windows<br/>"
+
     ],
     [
         "0x00000038",
         "This BSOD is uncommon. BSOD error code 0x00000038 may also show \"SERIAL_DRIVER_INTERNAL\" on the same blue screen.",
-        null
+        " - Remove peripherals that are not critical to normal operations.<br/> - Reboot your computer to check if you can log into your desktop.<br/> - Check for windows updates.<br/> - Scan device performance and health.<br/> - Toggle fast startup<br/> - Restore system updates via safe mode.<br/> - Run system restore.<br/> "
+
     ],
     [
         "0x00000039",
         "This BSOD means that the worker routine returned without releasing the mutex object that it owned. BSOD error code 0x00000039 may also show \"SYSTEM_EXIT_OWNED_MUTEX\" on the same blue screen.",
-        null
+        " - Perform a Full Scan using Windows Security<br/> - Disable HDMI device and Reinstall Sound Driver<br/> - Update System Drivers<br/> - Disable Non-essential Startup Programs<br/> - Run the BSOD Troubleshooter<br/> - Use System File Checker Utility<br/> - Run Deployment Image Servicing and Management Tool<br/>"
+
     ],
     [
         "0x0000003A",
         "This BSOD is uncommon. BSOD error code 0x0000003A may also show \"SYSTEM_UNWIND_PREVIOUS_USER\" on the same blue screen.",
-        null
+        " - Get the Latest Updates<br/> - Get the Latest Drivers<br/>"
+
     ],
     [
         "0x0000003B",
         "This BSOD means that an exception happened while executing a routine that transitions from non-privileged code to privileged code. BSOD error code 0x0000003B may also show \"SYSTEM_SERVICE_EXCEPTION\" on the same blue screen.",
-        null
+        " - Update the Wireless card drivers<br/> - Removing and Switching RAM modules<br/> - Updating or Uninstalling Malwarebytes<br/> - Applying the hotfix (Windows 7 only)<br/> - Doing a clean install or reset<br/>"
+
     ],
     [
         "0x0000003C",
         "This BSOD is uncommon. BSOD error code 0x0000003C may also show \"INTERRUPT_UNWIND_ATTEMPTED\" on the same blue screen.",
-        null
+        " - Find a program executable file (it has .exe extension) and right-click on it.<br/> - In the quick menu, select Troubleshoot compatibility.<br/> - At the next stage, you will see the window Program Compatibility Troubleshooter. Try recommended settings. Troubleshoot program.<br/> "
     ],
     [
         "0x0000003D",
         "This BSOD is uncommon. BSOD error code 0x0000003D may also show \"INTERRUPT_EXCEPTION_NOT_HANDLED\" on the same blue screen.",
-        "https://www.lifewire.com/how-to-fix-stop-0x0000003d-errors-2624076"
+        " - Remove peripheral GPU/ External HDD or SSD.<br/> - Open Windows in Safe Mode.<br/> - Perform the SFC Scan.<br/> - Check the disk using the CHKDSK command.<br/> - Identify and repair corrupt image files.<br/> - Install the latest monthly updates.<br/> - Uninstall the recent Patch releases.<br/>"
+
     ],
     [
         "0x0000003E",
         "This BSOD means that the system has multiple\nprocessors, but they are asymmetric in relation to one another. BSOD error code 0x0000003E may also show \"MULTIPROCESSOR_CONFIGURATION_NOT_SUPPORTED\" on the same blue screen.",
-        null
+        " - Update your Windows Drivers<br/> - Upgrade your BIOS to latest build and enable Virtualization Technology<br/> - Downgrade BIOS<br/> - Turn OFF/Disable ‘CPUID Value Limit’, ‘Hyperthreading’ and ‘Multiple CPU cores’ in BIOS settings<br/> - Run SFC Scan<br/>"
+
     ],
     [
         "0x0000003F",
         "This BSOD is the result of a system which has performed too many I/O actions. This has resulted in\nfragmented system page table entries (PTE). BSOD error code 0x0000003F may also show \"NO_MORE_SYSTEM_PTES\" on the same blue screen.",
-        null
+        " - Uninstall all newly installed programs<br/> - Update or reinstall drivers<br/> - Fix or reinstall PC operating system<br/> - Repair computer hard disk drive<br/>"
+
     ],
     [
         "0x00000040",
         "This BSOD means that a driver has improperly used IoBuildPartialMdl BSOD error code 0x00000040 may also show \"TARGET_MDL_TOO_SMALL\" on the same blue screen.",
-        null
+        " - Update a Driver With The Device Manager<br/> - Use sfc scannow To Check All System Files<br/> - Check for Errors The Disk Where Windows Is Installed By Using The Command chkdsk c: /f<br/> - Use The Mode of Compatibility With an Old Version of Windows<br/>"
+
     ],
     [
         "0x00000041",
         "This BSOD means that a kernel-mode thread has requested too much must-succeed pool. BSOD error code 0x00000041 may also show \"MUST_SUCCEED_POOL_EMPTY\" on the same blue screen.",
-        null
+        " - Restore Corrupted System Files<br/> - Update the Obsolete Drivers<br/> - Remove Malware Threats using Windows Security<br/> - Rectify Defective Windows Image Files<br/> - Install the Latest Updates<br/> - Run Blue Screen of Death Troubleshooter<br/> - Unplug External Hardware<br/> - Toggle OFF Fast Startup Settings<br/> - Test Memory for Corruption<br/> - Wipe out the Junk<br/> - Delete the Faulty Update Files<br/> - Delete 3rd Party Antivirus Programs<br/> - Repair Bad Areas in Hard Disk<br/> - Conduct a System Restore<br/> - Turn Off Automatic Reboot<br/> - Delete Applications with Similar Functions<br/> - Go for an Automatic Repair<br/> - Conduct a Clean Boot<br/>"
+
     ],
     [
         "0x00000042",
         "This BSOD is uncommon. BSOD error code 0x00000042 may also show \"ATDISK_DRIVER_INTERNAL\" on the same blue screen.",
-        null
+        " - 1. Click Start and start typing on your keyboard for services.msc<br/> - 2. In your search results services.msc should show up. Open it with a click.<br/> - 3. A new windows will open containing all Windows services on your system.<br/> - 4. Search for Windows Update<br/> - 5. Right-click the Windows Update and then click Stop<br/> - We will now clean the Windows Update temporary cache folder:<br/> - 1. Hold your windows-key pressed and hit R key simultanous.<br/> - 2. A small new windows will appear.<br/> - 3. Type %windir%SoftwareDistributionDataStore in this new window and click OK.<br/> - 4. This will open Windows Explorer on the correct location.<br/> - 5. Delete all contents of this folder. (Hint: Use Ctrl + A to select all files and folders)<br/>"
+
     ],
     [
         "0x00000043",
         "This BSOD is uncommon. BSOD error code 0x00000043 may also show \"NO_SUCH_PARTITION\" on the same blue screen.",
-        null
+        " - Turn off Automatic Restart<br/> - Turn off Automatic Restart<br/> - Open Device Manager and Update Outdated Drivers<br/> - Boot in Safe Mode <br/> - Launch Windows Update<br/> - Revert to the Recently Created Restore Point<br/>"
+
     ],
     [
         "0x00000044",
         "This BSOD means that a driver has tried to requested an IRP be completed that is already complete. BSOD error code 0x00000044 may also show \"MULTIPLE_IRP_COMPLETE_REQUESTS\" on the same blue screen.",
-        null
+        " - Remove all newly installed drivers and hard drives<br/> - Reinstall hardware drivers correctly<br/> - Update or change computer drivers<br/> - Check computer hard drive<br/>"
+
     ],
     [
         "0x00000045",
         "This BSOD is uncommon. BSOD error code 0x00000045 may also show \"INSUFFICIENT_SYSTEM_MAP_REGS\" on the same blue screen.",
-        null
+        " - Run CHKDSK<br/> - Scan your computer for viruses<br/>"
+
     ],
     [
         "0x00000046",
         "This BSOD is uncommon. BSOD error code 0x00000046 may also show \"DEREF_UNKNOWN_LOGON_SESSION\" on the same blue screen.",
-        null
+        " - Start your system in Safe Mode to remove the newest driver installations.<br/> - Access BIOS settings to cut off memory shadowing and caching in BIOS<br/> - RAM blocks set up wrongly have proven to initiate DEREF_UNKNOWN_LOGON_SESSION.<br/> - Last Known Good Configuration when you have no possibility to startupor System Restore alternativeon conditions that the computer loads the operating system might be resorted to.<br/> - Alter BIOS memory settings back to default settings on the assumption that you 've been making modifications to BIOS memory settings.<br/>"
+
     ],
     [
         "0x00000047",
         "This BSOD is uncommon. BSOD error code 0x00000047 may also show \"REF_UNKNOWN_LOGON_SESSION\" on the same blue screen.",
-        null
+        " - Make sure that the system drive has enough free space, because of low system drive space Blue Screens of Death, data corruption and other serious issues can appear.<br/> - Undo the recently executed change and verify again for the STOP Error.<br/> - Make sure that your system is virus free<br/> - Make sure your Windows system is packed with latest service packs and other updates.<br/> - Make sure that drivers of your hardware are updated<br/> - Check all the internal cables, cards, and other components are properly installed<br/> - Update System BIOS<br/>"
+
     ],
     [
         "0x00000048",
         "This BSOD means that an I/O request packet (IRP) was completed, and then was subsequently canceled. BSOD error code 0x00000048 may also show \"CANCEL_STATE_IN_COMPLETED_IRP\" on the same blue screen.",
-        null
+        " - Try Starting The Computer In Safe Mode<br/> - Try Using System Restore To Fix The Problem<br/> - Install The Latest Drivers To Fix The Problem<br/>"
+
     ],
     [
         "0x00000049",
         "This BSOD is uncommon. BSOD error code 0x00000049 may also show \"PAGE_FAULT_WITH_INTERRUPTS_OFF\" on the same blue screen.",
-        null
+        " - RUNNING SYSTEM UPDATE READINESS COMMAND<br/> - Open CMD as Administrator by Simply Right Clicking on Start button > Command Prompt (Admin).<br/> - Now Type DISM.exe Online, Cleanup-image, Scanhealth<br/> - Now again Type DISM.exe Online, Cleanup-image, Restorehealth<br/> - Reboot your Windows and see if error 0x00000049 still comes up.<br/>"
+
     ],
     [
         "0x0000004A",
         "This BSOD means that a thread is returning to user mode from a system call when its IRQL is still above PASSIVE_LEVEL. BSOD error code 0x0000004A may also show \"IRQL_GT_ZERO_AT_SYSTEM_SERVICE\" on the same blue screen.",
-        null
+        " - 1. Click Start and start typing on your keyboard for services.msc<br/> - 2. A new window will open containing all Windows services on your system.<br/> - 3. Search for Windows Update<br/> - 4. Right-click the Windows Update and then click Stop.<br/> - 5. Hold your windows-key pressed and hit R key simultanous.<br/> - 6. A small new window will appear.<br/> - 7. %windir% SoftwareDistribution DataStore in this new window and click OK.<br/> - 8. This will open Windows Explorer on the correct location.<br/> - 9. Delete all contents of this folder.<br/>"
+
     ],
     [
         "0x0000004B",
         "This BSOD is uncommon. BSOD error code 0x0000004B may also show \"STREAMS_INTERNAL_ERROR\" on the same blue screen.",
-        null
+        " - BOOT IN SAFE MODE:<br/> - Open Run command as previously described<br/> - Type MSConfig<br/> - Click on Boot tab<br/> - Tick Safe boot in Boot option<br/> - Select Network<br/> - Click Apply and OK<br/> - Reboot your system<br/>"
+
     ],
     [
         "0x0000004C",
         "This BSOD is uncommon. BSOD error code 0x0000004C may also show \"FATAL_UNHANDLED_HARD_ERROR\" on the same blue screen.",
-        null
+        " - Run SFC<br/> - Press Win + R, type cmd, press enter.<br/> - Type sfc scannow, press enter.<br/> - When the progress is done, close the window.<br/> - Restart your computer to check whether the 0x0000004C problem has been repaired.<br/>"
+
     ],
     [
         "0x0000004D",
         "This BSOD means that no free pages are available to continue operations. BSOD error code 0x0000004D may also show \"NO_PAGES_AVAILABLE\" on the same blue screen.",
-        null
+        " - Turning off BIOS memory options such as shadowing and or caching proved to alleviate it<br/> - trojan horses or harmful bots, or using other terms, harmful applications wiping out will be the key act to do with NO_PAGES_AVAILABLE, especially in case you have been opening unidentified downloads.<br/> - improperly installed memory bar proved to draw NO_PAGES_AVAILABLE.<br/> - return all in memory configuration in BIOS as was before NO_PAGES_AVAILABLE.<br/> - load your OS in Safe Mode to reverse most recent update activations.<br/>"
+
     ],
     [
         "0x0000004E",
         "This BSOD means that the page frame number (PFN) list is corrupted. BSOD error code 0x0000004E may also show \"PFN_LIST_CORRUPT\" on the same blue screen.",
-        null
+        " - Run a Disk Cleanup on your Windows PC<br/> - Undo recent System changes on your Windows PC<br/> - Run a Full Scan for Virus/Malware of your Windows PC<br/> - Run an “SFC /SCANNOW” Command in the CMD (Command Prompt)<br/> - Install & Update all newly available Drivers on your Windows PC<br/> - Run Windows Memory Diagnostic to check for System’s Memory<br/> - Fix by ‘ chkdsk /f ‘ Command in CMD (Command Prompt)<br/>"
+
     ],
     [
         "0x0000004F",
         "This BSOD is uncommon. BSOD error code 0x0000004F may also show \"NDIS_INTERNAL_ERROR\" on the same blue screen.",
-        "https://www.lifewire.com/how-to-fix-stop-0x0000004f-errors-2624085"
+        " - Restart your computer<br/> - Use avastclear to uninstall Avast Antivirus<br/> - Update the drivers for your network card<br/> - Test your computer's memory.<br/> - Perform basic STOP error troubleshooting.<br/>"
+
     ],
     [
         "0x00000050",
         "This BSOD means that invalid system memory has been referenced. BSOD error code 0x00000050 may also show \"PAGE_FAULT_IN_NONPAGED_AREA\" on the same blue screen.",
-        null
+        " - Run Memory Check to test your memory<br/> - Run a System File Checker scan<br/> - Disable Automatic Paging File Size Management<br/> - Update the Device Drivers<br/> - Perform a System Restore<br/> - Try disabling your antivirus programs<br/> - Use the Blue Screen Troubleshooter<br/> - Disable Memory caching in the BIOS<br/>"
+
     ],
     [
         "0x00000051",
         "This BSOD means that a severe\nregistry error has occurred. BSOD error code 0x00000051 may also show \"REGISTRY_ERROR\" on the same blue screen.",
-        null
+        " - Run the Check Disk utility<br/> - Run the Blue Screen Troubleshooter<br/> - Run System File Checker<br/> - Run the DISM tool<br/> - Reset your computer<br/> - Try to perform repair install by creating a Windows 10 installation media<br/>"
+
     ],
     [
         "0x00000052",
         "This BSOD is uncommon. BSOD error code 0x00000052 may also show \"MAILSLOT_FILE_SYSTEM\" on the same blue screen.",
-        null
+        " - Check for Windows Updates <br/> - Run System Restore <br/> - Uninstall Recent Updates via Safe Mode <br/> - Unplug or uninstall external hardware <br/> - Scan device performance and health <br/> - Run Windows Defender Offline <br/> - Uninstall recently installed software <br/> - Toggle fast startup"
+
     ],
     [
         "0x00000053",
         "This BSOD is uncommon. BSOD error code 0x00000053 may also show \"NO_BOOT_DEVICE\" on the same blue screen.",
-        null
+        " - Run Automatic repair<br/> - Run the troubleshooter<br/> - Run SFC scan<br/> - Make sure you’re using UEFI<br/> - Check for loose cables<br/> - Disconnect USB peripherals<br/> - Set your hard drive as first boot device<br/> - Fix your MBR<br/>"
+
     ],
     [
         "0x00000054",
         "This BSOD is uncommon. BSOD error code 0x00000054 may also show \"LM_SERVER_INTERNAL_ERROR\" on the same blue screen.",
-        null
+        " - Have you inserted RAM blocks properly?<br/> - Memory configuration in BIOS should be set back as before LM_SERVER_INTERNAL_ERROR emergence.<br/> - You'll most likely be advised to fall back upon your system installation disk to find and clear out the glitchy program and make a try to deactivate it, getting rid of an error code in such a manner.<br/> - The operating system might be violated by harmful programs - rootkits, harmful bots, disroot this plague!<br/> - Switch off memory caching and shadowing in your laptop's BIOS<br/>"
+
     ],
     [
         "0x00000055",
         "This BSOD is uncommon. BSOD error code 0x00000055 may also show \"DATA_COHERENCY_EXCEPTION\" on the same blue screen.",
-        null
+        "- Start The Computer In Safe Mode To Fix <br/>- Verify That The Device Is Compatible With Windows <br/>- Update Device Drivers"
+
     ],
     [
         "0x00000056",
         "This BSOD is uncommon. BSOD error code 0x00000056 may also show \"INSTRUCTION_COHERENCY_EXCEPTION\" on the same blue screen.",
-        null
+        "- Remove Any New Hardware <br/>- Update Drivers On Your System<br/>- Update Windows<br/>- Clean The Registry<br/>"
+
     ],
     [
         "0x00000057",
         "This BSOD is uncommon. BSOD error code 0x00000057 may also show \"XNS_INTERNAL_ERROR\" on the same blue screen.",
-        null
+        "- Add a local printer through the Network. <br/>- Copy the FileRepository files from a working machine.<br/>- Reinstall the Printer and Drivers manually.<br/>- Add a local server from Print Management.<br/>- Rename Driver files"
+
     ],
     [
         "0x00000058",
         "This BSOD will appear if the system is\nbooted from the wrong copy of a mirrored\npartition. BSOD error code 0x00000058 may also show \"FTDISK_INTERNAL_ERROR\" on the same blue screen.",
-        null
+        "- Go to Start <br/>- In the search box, type command, and select Command Prompt <br/> - Hold CTRL + Shift keys altogether and press Enter<br/>- Click Yes on the permission pop-up <br/>- Under the black box with a blinking cursor, key-in cleanmgr, and press Enter<br/> - Select the drive to clean up and press OK<br/> - Let Disk Cleanup calculate the occupied disk space for reclaim<br/>- Checkmark the categories boxes that need cleaning<br/>- Click Ok"
+
     ],
     [
         "0x00000059",
         "This BSOD means that a problem occurred in the Pinball file system. BSOD error code 0x00000059 may also show \"PINBALL_FILE_SYSTEM\" on the same blue screen.",
-        null
+        "- Add New Physical Memory <br/>- Check and Install Available Windows Update<br/> - Use System File Checker<br/>- Update Obsolete Drivers<br/>- Remove Unnecessary Hardware Peripherals"
+
     ],
     [
         "0x0000005A",
         "This BSOD is uncommon. BSOD error code 0x0000005A may also show \"CRITICAL_SERVICE_FAILED\" on the same blue screen.",
-        null
+        "- Unplug all the external device <br/> (except mouse and keyboard and then try to boot and check.<br/>- Restore BIOS defaults and then try <br/> to boot in safe mode and check if it helps.<br/> If you are not sure on how to restore BIOS default"
+
     ],
     [
         "0x0000005B",
-        "This BSOD is uncommon. BSOD error code 0x0000005B may also show \"SET_ENV_VAR_FAILED\" on the same blue screen.",
-        null
+        "This BSOD is uncommon. BSOD error code  may also show \"SET_ENV_VAR_FAILED\" on the same blue screen.",
+        " - Restore Deleted Files<br/> - Start The Computer in Safe Mode<br/> - Update a Driver With The Device Manager<br/> - Disable Unnecessary Programs in Windows Startup Menu<br/> - Install Latest System Updates<br/> - Scan The System For Viruses<br/> - Make a Clean Installation of Windows"
+
     ],
     [
         "0x0000005C",
         "This BSOD is uncommon. BSOD error code 0x0000005C may also show \"HAL_INITIALIZATION_FAILED\" on the same blue screen.",
-        "https://www.lifewire.com/how-to-fix-stop-0x0000005c-errors-2624094"
+        " - Method 1: Try booting the system in safe mode and perform a clean boot.<br/> - Method 2: Let’s perform SFC Scan on the computer and check for any missing or corrupted system files.<br/> - Method 3: Uninstall any recently installed programs<br/> - Method 4: Roll-back any recently installed drivers."
+
     ],
     [
         "0x0000005D",
         "This BSOD means that the computer is attempting to run Windows on an unsupported processor. BSOD error code 0x0000005D may also show \"UNSUPPORTED_PROCESSOR\" on the same blue screen.",
-        null
+        " - Fix #1: Enabling NX/XD in BIOS/UEFI<br/> - Fix #2: Enable Virtualization Technology<br/> - Fix #3: Adjusting Virtual Machine Settings<br/> - Fix #4: Check Virtualbox Settings"
+
     ],
     [
         "0x0000005E",
         "This BSOD is uncommon. BSOD error code 0x0000005E may also show \"OBJECT_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        " - Check for windows update<br/> - Run windows defender offline<br/> - Uninstall recently installed software<br/> - Toggle fast startup<br/> - Roll back updates on safe mode<br/> - Run system restore"
+
     ],
     [
         "0x0000005F",
         "This BSOD is uncommon. BSOD error code 0x0000005F may also show \"SECURITY_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        " - SECURITY_INITIALIZATION_FAILED can be inflicted by wrongly connected memory bars.<br/> - Try to utilize two popular utilities to reverse allegedly faulty system manipulations, which is notorious to throw up SECURITY_INITIALIZATION_FAILED: System Restore granted that the Windows based computer boots up or Last Known Good Configuration booting option.<br/> - Your system might be assaulted by malware infections: clean out that intruder<br/> - Start BIOS settings and switch off memory shadowing and or caching in BIOS<br/> - Apply Safe Mode to remove newly added 3rd party or expired tools."
+
     ],
     [
         "0x00000060",
         "This BSOD is uncommon. BSOD error code 0x00000060 may also show \"PROCESS_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        " - Run SFC<br/> - Press Win + R, type cmd, press enter<br/> - Type sfc scannow, press enter.<br/> - When the progress is done, close the window.<br/> - Restart your computer to check whether the 0x00000060 problem has been solved."
+
     ],
     [
         "0x00000061",
         "This BSOD is uncommon. BSOD error code 0x00000061 may also show \"HAL1_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        " - Run SFC<br/> - Right-click on the Computer icon on your desktop, choose Manage.<br/> - Locate and click on the Device Manager on the Computer Management window.<br/> - All of the devices will likely be shown around the right side, double-click on the type of device and get the driver you intend to update.<br/> - You will realize a new window appears, select Search Automatically for updated driver software.<br/> - When the procedure is finished, click Close."
+
     ],
     [
         "0x00000062",
         "This BSOD is uncommon. BSOD error code 0x00000062 may also show \"OBJECT1_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        " - Step 1: Repair Registry Entries Associated with Error 0x62<br/> - Step 2: Conduct a Full Malware Scan of Your PC<br/> - Step 3: Clean Out Your System Junk (Temporary Files and Folders) With Disk Cleanup (cleanmgr)<br/> - Step 4: Update Your PC Device Drivers<br/> - Step 5: Utilize Windows System Restore to Undo Recent System Changes<br/> - Step 6: Uninstall and Reinstall the Windows Operating System Program Associated with Windows Operating System<br/> - Step 7: Run Windows System File Checker (sfc scannow)<br/> - Step 8: Install All Available Windows Updates<br/> - Step 9: Check for Hard Drive Corruption (chkdsk f)<br/> - Step 10: Test Your Memory (RAM) for Corruption<br/> - Step 11: Perform a Clean Installation of Windows"
+
     ],
     [
         "0x00000063",
         "This BSOD is uncommon. BSOD error code 0x00000063 may also show \"SECURITY1_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        " - Enter BIOS and disable BIOS memory settings such as caching and or shadowing<br/> - SECURITY1_INITIALIZATION_FAILED produced by wrongly connected RAM units is quite typical.<br/> - When your machine crashes anytime it starts up regularly try uninstalling allegedly problematic updates after entering Safe Mode.<br/> - Revert its memory settings as before SECURITY1_INITIALIZATION_FAILED onset if you made modifications in BIOS memory settings."
+
     ],
     [
         "0x00000064",
         "This BSOD is uncommon. BSOD error code 0x00000064 may also show \"SYMBOLIC_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        " - Make sure Windows 10 and your drivers are up to date<br/> - Run the BSOD Troubleshooter<br/> - Run the SFC scan<br/> - Run DISM<br/> - Check the hard drive<br/> - Remove incompatible software/antivirus<br/> - Reset Windows 10<br/> - Check your hardware"
+
     ],
     [
         "0x00000065",
         "This BSOD is uncommon. BSOD error code 0x00000065 may also show \"MEMORY1_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        "- Manually Run system File Checker Tool .<br/>- Fix Windows Registry Corrupted Files<br/>- Repair windows using installation disc<br/>- Clean installation"
     ],
     [
         "0x00000066",
         "This BSOD is uncommon. BSOD error code 0x00000066 may also show \"CACHE_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        "- Start your computer and log on as an administrator.<br/>- Click the Start button then select All Programs, Accessories, System Tools, and then click System Restore.<br/>- Select the most recent system restore point from the “On this list, click a restore point” list, and then click Next.<br/>- Click Next on the confirmation window.<br/>- Restarts the computer when the restoration is finished"
     ],
     [
         "0x00000067",
         "This BSOD means that the registry configuration failed. BSOD error code 0x00000067 may also show \"CONFIG_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        "- Simply change your network from public to private."
     ],
     [
         "0x00000068",
         "This BSOD is uncommon. BSOD error code 0x00000068 may also show \"FILE_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        "- Manually Run system File Checker Tool .<br/>- Fix Windows Registry Corrupted Files<br/>- Repair windows using installation disc<br/>- Clean installation"
     ],
     [
         "0x00000069",
         "This BSOD means that the initialization of the I/O system failed for some reason. BSOD error code 0x00000069 may also show \"IO1_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        "- Run the Blue Screen Online Troubleshooter<br/>- Update drivers<br/>- Rebuild BCD<br/>- Change the Disk Controller mode to SATA or ATA from RAID/AHCI<br/>- Set useplatformclock to True<br/>- Perform System Restore."
     ],
     [
         "0x0000006A",
         "This BSOD is uncommon. BSOD error code 0x0000006A may also show \"LPC_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        "- Manually Run system File Checker Tool .<br/>- Fix Windows Registry Corrupted Files<br/>- Repair windows using installation disc<br/>- Clean installation"
     ],
     [
         "0x0000006B",
         "This BSOD means that the initialization of the Microsoft Windows operating system failed. BSOD error code 0x0000006B may also show \"PROCESS1_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        "- Download Service Pack 1 from Microsoft’s official site <br/>- Update it <br/>- Reboot your computer"
     ],
     [
         "0x0000006C",
         "This BSOD is uncommon. BSOD error code 0x0000006C may also show \"REFMON_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        "- Manually Run System File Checker Tool. <br/>- Fix Windows Registry Corrupted Files<br/>- Repair windows using installation disc<br/>- Clean installation"
+
     ],
     [
         "0x0000006D",
         "This BSOD means that the initialization of the Microsoft Windows operating system failed. BSOD error code 0x0000006D may also show \"SESSION1_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        "- Restart your computer. <br/>- Hold your windows-key pressed and hit <br/>the R key simultaneously.<br/>- A small new window will appear.<br/>- Type regedit in this new window and hit Enter.<br/>- In the new windows you have a navigation <br/>on the left side. Use it to navigate to<br/>HKEY_LOCAL_MACHINE SOFTWARE Policies <br/>Microsoft Windows WindowsUpdate<br/>- Once you found it, search for WUServer<br/> and WIStatusServer in the right hand pane.<br/>- If they are not listed we cannot clean<br/> the download path. Otherwise delete both.<br/>- Restart your computer."
     ],
     [
         "0x0000006E",
         "This BSOD means that the initialization of the Microsoft Windows operating system failed. BSOD error code 0x0000006E may also show \"SESSION2_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        "- Start your computer and log on as an <br/>administrator.<br/>- Click the Start button then select<br/>All Programs, Accessories, System Tools,<br/>and then click <br/> System Restore.<br/>- In the new window, select <br/>Restore my computer to an earlier<br/>time option and then click Next.<br/>- Select the most recent system restore<br/> point from the On this list, click <br/> a restore point list, and then click Next.<br/>Click Next on the confirmation window.<br/>Restarts the computer when the restoration<br/>is finished."
+
     ],
     [
         "0x0000006F",
         "This BSOD means that the initialization of the Microsoft Windows operating system initialization. BSOD error code 0x0000006F may also show \"SESSION3_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        "- Uninstall Recently Installed App<br/>- Run System File Checker to Fix Error:<br/> 0x0000006f Error<br/>- Press Win+R button on your keyboard;<br/>- Type cmd, press Enter;<br/>- Type SFC /SCANNOW in the command window;<br/>- Press ENTER."
+
     ],
     [
         "0x00000070",
         "This BSOD means that the initialization of the Microsoft Windows operating system failed. BSOD error code 0x00000070 may also show \"SESSION4_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        "- Uninstall Recently Installed Software<br/>Run SFC to Fix Fix Windows Error <br/>0x00000070 Error.<br/>- Check If Fix Windows Error <br/>0x00000070 Error was Removed."
+
     ],
     [
         "0x00000071",
         "This BSOD means that the initialization of the Microsoft Windows operating system failed. BSOD error code 0x00000071 may also show \"SESSION5_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        "- Download and install updates and device<br/> drivers for your computer from <br/>Windows Update.<br/>- Scan your computer for computer viruses.<br/>- Check your hard disk for errors."
+
     ],
     [
         "0x00000072",
         "This BSOD is uncommon. BSOD error code 0x00000072 may also show \"ASSIGN_DRIVE_LETTERS_FAILED\" on the same blue screen.",
-        null
+        "- You may be able to fix the Assign drive <br/>letters failed  error by disconnecting <br/>that hardware device from your computer <br/>and then restarting the computer.<br/>- Make sure that your new hardware is <br/>compatible with the version of Windows<br/> you are using<br/>- Use The Last Known Good Configuration<br/>- Safe Mode with Networking<br/>Using System Restore To Fix Things Quickly"
+
     ],
     [
         "0x00000073",
         "This BSOD means that one of the top-level\nregistry keys, also known as\ncore system hives, cannot be linked in the registry tree. BSOD error code 0x00000073 may also show \"CONFIG_LIST_FAILED\" on the same blue screen.",
-        null
+        "- Using Safe Mode from the Command Prompt<br/>- SFC /Scannow<br/>- You may have to try a Startup repair<br/> booting from the Vista disc to resolve the issue.<br/>- If Startup Repair doesn’t work, then <br/>you may try a System restore following <br/>the above mentioned steps to choose System <br/>restore from the System Recovery Options menu."
+
     ],
     [
         "0x00000074",
         "This BSOD means that there is an error in the registry. BSOD error code 0x00000074 may also show \"BAD_SYSTEM_CONFIG_INFO\" on the same blue screen.",
-        null
+        "- Fix Windows Registry<br/>- RAM Testing by Windows Memory Diagnostics Tool<br/>- Try Fixing BCD File<br/>- Update Driver<br/>- Use System Restore"
+
     ],
     [
         "0x00000075",
         "This BSOD means that the SYSTEM registry hive file cannot be converted to a mapped file. BSOD error code 0x00000075 may also show \"CANNOT_WRITE_CONFIGURATION\" on the same blue screen.",
-        null
+        "- A Newly Installed Device Is Causing Problems<br/>- Start The Computer In Safe Mode<br/>- Identify And Resolve Driver Issues"
+
     ],
     [
         "0x00000076",
         "This BSOD means that a driver failed to release locked pages after an I/O operation. BSOD error code 0x00000076 may also show \"PROCESS_HAS_LOCKED_PAGES\" on the same blue screen.",
-        null
+        "- Make sure that Windows 10 and your drivers are up to date<br/>- Run the BSOD Troubleshooter<br/>- Run the SFC scan<br/>- Run DISM<br/>- Check the hard drive<br/>- Delete the problematic software<br/>- Install the older version of the drivers<br/>- Downgrade your BIOS<br/>- Delete Cubase Application Data<br/>- Reset Windows 10"
+
     ],
     [
         "0x00000077",
         "This BSOD means that the requested page of\nkernel data from the paging file could not be read into memory. BSOD error code 0x00000077 may also show \"KERNEL_STACK_INPAGE_ERROR\" on the same blue screen.",
-        null
+        "- Scan and Remove Boot Sector Virus<br/>- Ensure that RAM or memory of your computer is<br/> not defective.<br/>- Ensure that all adaptors are properly seated <br/>in their slots.<br/>- Ensure that the connectors of all adaptors connected<br/> to your system are clean.<br/>- Disable system caching from BIOS to see<br/> if doing this resolves the issue.<br/>- Check your motherboard for faults.<br/>- Manually run Chkdsk"
+
     ],
     [
         "0x00000078",
         "This BSOD is uncommon. BSOD error code 0x00000078 may also show \"PHASE0_EXCEPTION\" on the same blue screen.",
-        "https://www.lifewire.com/how-to-fix-stop-0x00000078-errors-2624108"
+        "- Restart your computer<br/> Perform basic STOP error troubleshooting"
+
     ],
     [
         "0x00000079",
         "This BSOD means that the Hardware Abstraction Layer (HAL) revision level or configuration does not match that of the kernel or the computer. BSOD error code 0x00000079 may also show \"MISMATCHED_HAL\" on the same blue screen.",
-        null
+        "- Run a Registry Scan<br/>- Reinstall Windows<br/>- Use Windows Recovery Console<br/>- Use Ntldr Command<br/>- Use Windows System Restore"
+
     ],
     [
         "0x0000007A",
         "This BSOD means that the requested page of kernel data from the paging file could not be read into memory. BSOD error code 0x0000007A may also show \"KERNEL_DATA_INPAGE_ERROR\" on the same blue screen.",
-        null
+        "- Restart Computer<br/>- Fix Kernel Data Inpage Error with CHKDSK<br/>- Run Memory Diagnostics Tool for a RAM Check<br/>- Run Antivirus Scan to Fix Kernel Data Inpage Error<br/>- Check System Log to Fix 0x0000007a Kernel <br/>Data Inpage Error<br/>- Update Device Drivers<br/>- Uninstall Incompatible Software<br/>- Run sfc /scannow to fix Kernel Data Inpage Error<br/>- Check Hardware and IDE/SATA Cable Connections<br/>- Reboot Windows in Safe Mode"
+
     ],
     [
         "0x0000007B",
         "This BSOD means that the Microsoft Windows operating system has lost access to the system partition during startup. BSOD error code 0x0000007B may also show \"INACCESSIBLE_BOOT_DEVICE\" on the same blue screen.",
-        "https://www.lifewire.com/how-to-fix-stop-0x0000007b-errors-2624109"
+        "- Restart your computer<br/>- Removing or reconfiguring the newly installed hard drive controller<br/>- Using System Restore to undo recent changes<br/>- Rolling back the hard drive controller <br/>device driver to the version prior to your driver update<br/>- Verify that the SCSI chain is correctly terminated<br/>- Verify that the hard drive is properly installed.<br/>- Verify that the hard drive is configured properly in BIOS."
     ],
     [
         "0x0000007C",
         "This BSOD means that a problem occurred with an NDIS driver. BSOD error code 0x0000007C may also show \"BUGCODE_NDIS_DRIVER\" on the same blue screen.",
-        null
+        "- Update or Roll Back Network Driver<br/>- Run Blue Screen Troubleshooter<br/>- Update Windows or Uninstall Windows Updates<br/>- Check Hardware"
+
     ],
     [
         "0x0000007D",
         "This BSOD means that there is not enough memory to start the Microsoft Windows operating system. BSOD error code 0x0000007D may also show \"INSTALL_MORE_MEMORY\" on the same blue screen.",
-        null
+        " - Back-up the Registry of your operating system.<br/>- Find the Registry Key: [HKEY_LOCAL_MACHINE:SOFTWARE:<br/>Microsoft:Windows:CurrentVersion:WindowsUpdate:OSUpgrade<br/>- Note: this Registry Key should already <br/>exist, if it does not exist, create it.<br/>- Create a brand new DWORD Value that is named <br/>AllowOsUpdate<br/>- Set the Value to 0x00000001.<br/>- Close and reopen your Control Panel.<br/>- Restart the Microsoft Windows.<br/>- However, if you are not confident in your <br/>ability to use the methods above or they <br/>do not fully remove the issue on your <br/>computer, you may want to seek the assistance <br/>of a qualified repair technician who is <br/>well versed in fixing 0x0000007D."
+
     ],
     [
         "0x0000007E",
         "This BSOD means that a system thread generated an exception that the error handler did not catch. BSOD error code 0x0000007E may also show \"SYSTEM_THREAD_EXCEPTION_NOT_HANDLED\" on the same blue screen.",
-        null
+        "- Check Hard Drive using the CHKDSK command<br/>- Using Registration Editor with Regedit Command<br/>- Update Driver<br/>- Update BIOS<br/>- Remove Extra Space"
+
     ],
     [
         "0x0000007F",
         "This BSOD means that the Intel CPU generated a trap and the kernel failed to catch this trap. BSOD error code 0x0000007F may also show \"UNEXPECTED_KERNEL_MODE_TRAP\" on the same blue screen.",
-        null
+        "- Check new hardware<br/>- Test RAM memory<br/>- Update or disable drivers<br/>- Disable memory caching from BIOS"
+
     ],
     [
         "0x00000080",
         "This BSOD means that a\nhardware malfunction has occurred. BSOD error code 0x00000080 may also show \"NMI_HARDWARE_FAILURE\" on the same blue screen.",
-        null
+        " - Check for Windows Updates <br/> - Run System Restore <br/> - Uninstall Recent Updates via Safe Mode <br/> - Unplug or uninstall external hardware <br/> - Scan device performance and health <br/> - Run Windows Defender Offline <br/> - Uninstall recently installed software <br/> - Toggle fast startup"
+
     ],
     [
         "0x00000081",
         "This BSOD is uncommon. BSOD error code 0x00000081 may also show \"SPIN_LOCK_INIT_FAILURE\" on the same blue screen.",
-        null
+        "<br/>Manually Run system File Checker Tool<br/>Fix Windows Registry Corrupted Files<br/>Repair windows using installation disc<br/>Clean installation<br/>"
+
     ],
     [
         "0x00000082",
         "This BSOD is uncommon. BSOD error code 0x00000082 may also show \"DFS_FILE_SYSTEM\" on the same blue screen.",
-        null
+        "<br/>Installed the latest update package <br/>If the latest drivers are installed, you need to install an earlier version of the drivers. If the device is incompatible with the operating system, then it is necessary either to change this device or to change the operating system that supports this device.<br/>"
+
     ],
     [
         "0x00000085",
         "This BSOD means that a fatal error occurred during setup. BSOD error code 0x00000085 may also show \"SETUP_FAILURE\" on the same blue screen.",
-        null
+        "<br/>The system must be checked for viruses and file integrity<br/>"
+
     ],
     [
         "0x0000008B",
         "This BSOD means that a mismatch has occurred in the\nMBR checksum. BSOD error code 0x0000008B may also show \"MBR_CHECKSUM_MISMATCH\" on the same blue screen.",
-        null
+        " - Check for Windows Updates <br/> - Run System Restore <br/> - Uninstall Recent Updates via Safe Mode <br/> - Unplug or uninstall external hardware <br/> - Scan device performance and health <br/> - Run Windows Defender Offline <br/> - Uninstall recently installed software <br/> - Toggle fast startup"
+
     ],
     [
         "0x0000008E",
         "This BSOD means that a kernel-mode application generated an exception that the error handler did not catch. BSOD error code 0x0000008E may also show \"KERNEL_MODE_EXCEPTION_NOT_HANDLED\" on the same blue screen.",
-        "https://www.lifewire.com/how-to-fix-stop-0x0000008e-errors-2624112"
+        "<br/>Installed the latest update package <br/>If the latest drivers are installed, you need to install an earlier version of the drivers. If the device is incompatible with the operating system, then it is necessary either to change this device or to change the operating system that supports this device.<br/>"
+
     ],
     [
         "0x0000008F",
         "This BSOD means that the Plug and Play (PnP) manager could not be initialized. BSOD error code 0x0000008F may also show \"PP0_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        "<br/>Manually Run system File Checker Tool<br/>Fix Windows Registry Corrupted Files<br/>Repair windows using installation disc<br/>Clean installation<br/>"
+
     ],
     [
         "0x00000090",
         "This BSOD means that the Plug and Play (PnP) manager could not be initialized. BSOD error code 0x00000090 may also show \"PP1_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        "<br/>The system must be checked for viruses and file integrity<br/>"
+
     ],
     [
         "0x00000092",
         "This BSOD means that a uniprocessor-only driver has been loaded on a multiprocessor system. BSOD error code 0x00000092 may also show \"UP_DRIVER_ON_MP_SYSTEM\" on the same blue screen.",
-        null
+        "<br/>Installed the latest update package (Service pack) and the constant updating of the system will save a lot of errors<br/>It is necessary to roll back the driver to an earlier version<br/>Check it for compatibility with your operating system<br/>If the device is incompatible with the operating system, then it is necessary either to change this device or to change the operating system that supports this device<br/>"
+
     ],
     [
         "0x00000093",
         "This BSOD means that an invalid or protected handle was passed to NtClose. BSOD error code 0x00000093 may also show \"INVALID_KERNEL_HANDLE\" on the same blue screen.",
-        null
+        "<br/>Restart your computer<br/>Update your operating system to receive the latest updates on the Microsoft website<br/>If you have not installed new equipment, you should check the mains voltage. It must be at least 210V.<br/>Check the RAM for operability and errors<br/>Check for free space on your hard drive. If there is not enough space, then delete some of the data<br/>If you can’t log in to Windows, then try to boot from the last successful configuration<br/>If you are configuring the BIOS yourself, try resetting to default settings<br/>Check the system for viruses<br/>If error 0x00000100 appears during system installation, then possibly there is not enough RAM. Add<br/>"
+
     ],
     [
         "0x00000094",
         "This BSOD means that a thread exited while its kernel stack was marked as not swappable. BSOD error code 0x00000094 may also show \"KERNEL_STACK_LOCKED_AT_EXIT\" on the same blue screen.",
-        null
+        "<br/>Run a system scan for viruses. <br/>If Parameter 1 is 0x66, you can debug this problem by checking that the minifilter driver has registered a post-work callback for this job. The current job can be found in the callback data structure. Use the debugger extension fltkd.cbd.<br/>If Parameter 1 is 0x67, then you should check that you do not have a pool of non-pumped memory somewhere in the system.<br/>If Parameter 1 is 0x6A, make sure that the minifilter driver does not reference this file object to receive a descriptor at any point during processing of the minifilter of this operation.<br/>If Parameter 1 is 0x6B or 0x6C, then an unrecoverable internal state error has occurred that will cause the operating system to listen to the check.<br/>If Parameter 1 is 0x6D, make sure that the minifilter driver does not call FltReleaseContext too many times for a given context.<br/>If Parameter 1 is 0x6E, make sure that the minifilter driver does not call FltReferenceContext after this context has been deleted.<br/>"
+
     ],
     [
         "0x00000096",
         "This BSOD means that a queue entry was removed that contained a null pointer. BSOD error code 0x00000096 may also show \"INVALID_WORK_QUEUE_ITEM\" on the same blue screen.",
-        null
+        "<br/>Restart your computer<br/>Update your operating system to receive the latest updates on the Microsoft website<br/>If you have not installed new equipment, you should check the mains voltage. It must be at least 210V.<br/>Check the RAM for operability and errors<br/>Check for free space on your hard drive. If there is not enough space, then delete some of the data<br/>If you can’t log in to Windows, then try to boot from the last successful configuration<br/>If you are configuring the BIOS yourself, try resetting to default settings<br/>Check the system for viruses<br/>If error 0x00000100 appears during system installation, then possibly there is not enough RAM. Add<br/>"
+
     ],
     [
         "0x00000097",
         "This BSOD is uncommon. BSOD error code 0x00000097 may also show \"BOUND_IMAGE_UNSUPPORTED\" on the same blue screen.",
-        null
+        "<br/>Installed the latest update package (Service pack) and the constant updating of the system will save a lot of errors<br/>It is necessary to roll back the driver to an earlier version<br/>Check it for compatibility with your operating system<br/>If the device is incompatible with the operating system, then it is necessary either to change this device or to change the operating system that supports this device<br/>"
+
     ],
     [
         "0x00000098",
         "This BSOD means that the trial period for the Microsoft Windows operating system has ended. BSOD error code 0x00000098 may also show \"END_OF_NT_EVALUATION_PERIOD\" on the same blue screen.",
-        null
+        "<br/>Manually Run system File Checker Tool <br/>Fix Windows Registry Corrupted Files<br/>Repair windows using installation disc<br/>Clean installation<br/>"
+
     ],
     [
         "0x00000099",
         "This BSOD means that ExInitializeRegion or ExInterlockedExtendRegion was called with an invalid set of parameters. BSOD error code 0x00000099 may also show \"INVALID_REGION_OR_SEGMENT\" on the same blue screen.",
-        null
+        "<br/>Restart your computer<br/>Update your operating system to receive the latest updates on the Microsoft website<br/>If you have not installed new equipment, you should check the mains voltage. It must be at least 210V.<br/>Check the RAM for operability and errors<br/>Check for free space on your hard drive. If there is not enough space, then delete some of the data<br/>If you can’t log in to Windows, then try to boot from the last successful configuration<br/>If you are configuring the BIOS yourself, try resetting to default settings<br/>Check the system for viruses<br/>If error 0x00000100 appears during system installation, then possibly there is not enough RAM. Add<br/>"
+
     ],
     [
         "0x0000009A",
         "This BSOD means that the software license agreement has been violated. BSOD error code 0x0000009A may also show \"SYSTEM_LICENSE_VIOLATION\" on the same blue screen.",
-        null
+        "<br/>Manually Run system File Checker Tool <br/>Fix Windows Registry Corrupted Files<br/>Repair windows using installation disc<br/>Clean installation<br/>"
+
     ],
     [
         "0x0000009B",
         "This BSOD means that a problem occurred in the\nUDF file system. BSOD error code 0x0000009B may also show \"UDFS_FILE_SYSTEM\" on the same blue screen.",
-        null
+        "<br/>Restart your computer<br/>Update your operating system to receive the latest updates on the Microsoft website<br/>If you have not installed new equipment, you should check the mains voltage. It must be at least 210V.<br/>Check the RAM for operability and errors<br/>Check for free space on your hard drive. If there is not enough space, then delete some of the data<br/>If you can’t log in to Windows, then try to boot from the last successful configuration<br/>If you are configuring the BIOS yourself, try resetting to default settings<br/>Check the system for viruses<br/>If error 0x00000100 appears during system installation, then possibly there is not enough RAM. Add<br/>"
+
     ],
     [
         "0x0000009C",
         "This BSOD means that a fatal machine check exception has occurred. BSOD error code 0x0000009C may also show \"MACHINE_CHECK_EXCEPTION\" on the same blue screen.",
-        null
+        "<br/>Restart your computer<br/>Update your operating system to receive the latest updates on the Microsoft website<br/>If you have not installed new equipment, you should check the mains voltage. It must be at least 210V.<br/>Check the RAM for operability and errors<br/>Check for free space on your hard drive. If there is not enough space, then delete some of the data<br/>If you can’t log in to Windows, then try to boot from the last successful configuration<br/>If you are configuring the BIOS yourself, try resetting to default settings<br/>Check the system for viruses<br/>If error 0x00000100 appears during system installation, then possibly there is not enough RAM. Add<br/>"
+
     ],
     [
         "0x0000009E",
         "This BSOD means that one or more critical user-mode components failed to satisfy a health check. BSOD error code 0x0000009E may also show \"USER_MODE_HEALTH_MONITOR\" on the same blue screen.",
-        null
+        "<br/>Manually Run system File Checker Tool <br/>Fix Windows Registry Corrupted Files<br/>Repair windows using installation disc<br/>Clean installation<br/>"
+
     ],
     [
         "0x0000009F",
         "This BSOD means that the driver is in an inconsistent or invalid power state. BSOD error code 0x0000009F may also show \"DRIVER_POWER_STATE_FAILURE\" on the same blue screen.",
-        null
+        "<br/>Installed the latest update package (Service pack) and the constant updating of the system will save a lot of errors<br/>It is necessary to roll back the driver to an earlier version<br/>Check it for compatibility with your operating system<br/>If the device is incompatible with the operating system, then it is necessary either to change this device or to change the operating system that supports this device<br/>"
     ],
     [
         "0x000000A0",
         "This BSOD means that the power policy manager experienced a fatal error. BSOD error code 0x000000A0 may also show \"INTERNAL_POWER_ERROR\" on the same blue screen.",
-        null
+        "<br/>Go to Control Panel<br/>Click System and Maintenance<br/>Advanced system settings (left hand panel)<br/>Settings button under startup and recovery<br/>Clear the checkbox “automatically restart” under System failure<br/>Click OK twice and close the control panel<br/>"
+
     ],
     [
         "0x000000A1",
         "This BSOD means that the PCI Bus driver detected inconsistency problems in its internal structures and could not continue. BSOD error code 0x000000A1 may also show \"PCI_BUS_DRIVER_INTERNAL\" on the same blue screen.",
-        null
+        "<br/>Go to Control Panel<br/>Click System and Maintenance<br/>Advanced system settings (left hand panel)<br/>Settings button under startup and recovery<br/>Clear the checkbox “automatically restart” under System failure<br/>Click OK twice and close the control panel<br/>"
+
     ],
     [
         "0x000000A2",
         "This BSOD means that corruption has been detected in the image of an\nexecutable file in memory. BSOD error code 0x000000A2 may also show \"MEMORY_IMAGE_CORRUPT\" on the same blue screen.",
-        null
+        "<br/>Try to return to the BIOS and set the default parameters<br/>Check out the BIOS update methodology on the official website of your motherboard manufacturer<br/>Reinstall the graphics driver<br/>You will need to create bootable Memtest86 + media and then boot through it.<br/>"
     ],
     [
         "0x000000A3",
         "This BSOD means that the ACPI driver detected an internal inconsistency. BSOD error code 0x000000A3 may also show \"ACPI_DRIVER_INTERNAL\" on the same blue screen.",
-        null
+        " 1. Manually Run system File Checker Tool. <br/> 2. Fix Windows Registry Corrupted Files <br/> 3. Repair windows using installation disc <br/> 4. Clean installation"
+
     ],
     [
         "0x000000A4",
         "This BSOD means that a problem occurred in the CNSS file system filter. BSOD error code 0x000000A4 may also show \"CNSS_FILE_SYSTEM_FILTER\" on the same blue screen.",
-        null
+        "<br/>Try to return to the BIOS and set the default parameters<br/>Check out the BIOS update methodology on the official website of your motherboard manufacturer<br/>Reinstall the graphics driver<br/>You will need to create bootable Memtest86 + media and then boot through it.<br/>"
     ],
     [
         "0x000000A5",
         "This BSOD means that the Advanced Configuration and Power Interface (ACPI) BIOS of the computer is not fully compliant with the ACPI specification. BSOD error code 0x000000A5 may also show \"ACPI_BIOS_ERROR\" on the same blue screen.",
-        null
+        "<br/>Installed the latest update package (Service pack) and the constant updating of the system will save a lot of errors<br/>It is necessary to roll back the driver to an earlier version<br/>Check it for compatibility with your operating system<br/>If the device is incompatible with the operating system, then it is necessary either to change this device or to change the operating system that supports this device<br/>"
+
     ],
     [
         "0x000000A7",
         "This BSOD means that the kernel-mode handle table detected an inconsistent handle table entry state. BSOD error code 0x000000A7 may also show \"BAD_EXHANDLE\" on the same blue screen.",
-        null
+        " 1. Manually Run system File Checker Tool. <br/> 2. Fix Windows Registry Corrupted Files <br/> 3. Repair windows using installation disc <br/> 4. Clean installation"
+
     ],
     [
         "0x000000AB",
         "This BSOD means that a session unload occurred while a session driver still held memory. BSOD error code 0x000000AB may also show \"SESSION_HAS_VALID_POOL_ON_EXIT\" on the same blue screen.",
-        null
+        "<br/>Installed the latest update package (Service pack) and the constant updating of the system will save a lot of errors<br/>It is necessary to roll back the driver to an earlier version<br/>Check it for compatibility with your operating system<br/>If the device is incompatible with the operating system, then it is necessary either to change this device or to change the operating system that supports this device<br/>"
     ],
     [
         "0x000000AC",
         "This BSOD means that the hardware abstraction layer (HAL) could not obtain sufficient memory. BSOD error code 0x000000AC may also show \"HAL_MEMORY_ALLOCATION\" on the same blue screen.",
-        null
+        " - Fix #1: Run a clean boot<br/> - Fix #2: Update drivers<br/> - Fix #3: Repair corrupted system files with the SFC command<br/> - Fix #4: Reinstall Windows"
+
     ],
     [
         "0x000000AD",
         "This BSOD means that the video port created a non-fatal minidump on behalf of the video driver during run time. BSOD error code 0x000000AD may also show \"VIDEO_DRIVER_DEBUG_REPORT_REQUEST\" on the same blue screen.",
-        null
+        " 1. Manually Run system File Checker Tool. <br/> 2. Fix Windows Registry Corrupted Files <br/> 3. Repair windows using installation disc <br/> 4. Clean installation"
+
     ],
     [
         "0x000000B4",
         "This BSOD means that Windows was unable to enter graphics mode. BSOD error code 0x000000B4 may also show \"VIDEO_DRIVER_INIT_FAILURE\" on the same blue screen.",
-        null
+        "<br/>Installed the latest update package (Service pack) and the constant updating of the system will save a lot of errors<br/>It is necessary to roll back the driver to an earlier version<br/>Check it for compatibility with your operating system<br/>If the device is incompatible with the operating system, then it is necessary either to change this device or to change the operating system that supports this device<br/>"
+
     ],
     [
         "0x000000B8",
         "This BSOD means that an illegal operation was attempted by a delayed procedure call (DPC) routine. BSOD error code 0x000000B8 may also show \"ATTEMPTED_SWITCH_FROM_DPC\" on the same blue screen.",
-        null
+        " - Fix #1: Run a clean boot<br/> - Fix #2: Update drivers<br/> - Fix #3: Repair corrupted system files with the SFC command<br/> - Fix #4: Reinstall Windows"
+
     ],
     [
         "0x000000B9",
         "This BSOD is uncommon. BSOD error code 0x000000B9 may also show \"CHIPSET_DETECTED_ERROR\" on the same blue screen.",
-        null
+        "<br/>Installed the latest update package (Service pack) and the constant updating of the system will save a lot of errors<br/>It is necessary to roll back the driver to an earlier version<br/>Check it for compatibility with your operating system<br/>If the device is incompatible with the operating system, then it is necessary either to change this device or to change the operating system that supports this device<br/>"
     ],
     [
         "0x000000BA",
         "This BSOD means that a session driver still had mapped views when the session unloaded. BSOD error code 0x000000BA may also show \"SESSION_HAS_VALID_VIEWS_ON_EXIT\" on the same blue screen.",
-        null
+        " - Fix 1: Try to disable the Driver Verifier Manager<br/> - Fix 2: Make Changes to the Drivers<br/> - Fix 3: Run the SFC Tool<br/> - Fix 4: Run the DISM Tool<br/> - Fix 5: Run the Blue Screen Troubleshooter<br/> - Fix 6: Install Latest Windows Update<br/> - Fix 7: Check for Faulty Hardware<br/> - Fix 8: Update Your BIOS<br/> - Fix 9: Update Your SSD Firmware<br/> - Fix 10: Perform System Restore<br/> - Fix 11: Reset Windows 10"
+
     ],
     [
         "0x000000BB",
         "This BSOD means that Windows failed to successfully boot off a network. BSOD error code 0x000000BB may also show \"NETWORK_BOOT_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        " - Install Windows Updates<br/> - Expand the start menu by hitting the Windows icon or pressing CTRL + ESC or the Win Key on the keyboard.<br/> - Input Windows Update into the search bar. You will realize Windows update under programs on top of the search result list. Select it.<br/> - On new opened Control Panel, System and Security, Windows Update page, click on Install updates button"
+
     ],
     [
         "0x000000BC",
         "This BSOD means that a duplicate\nIP address was assigned to this machine while booting off a network. BSOD error code 0x000000BC may also show \"NETWORK_BOOT_DUPLICATE_ADDRESS\" on the same blue screen.",
-        null
+        " - Fix 1: Try to disable the Driver Verifier Manager<br/> - Fix 2: Make Changes to the Drivers<br/> - Fix 3: Run the SFC Tool<br/> - Fix 4: Run the DISM Tool<br/> - Fix 5: Run the Blue Screen Troubleshooter<br/> - Fix 6: Install Latest Windows Update<br/> - Fix 7: Check for Faulty Hardware<br/> - Fix 8: Update Your BIOS<br/> - Fix 9: Update Your SSD Firmware<br/> - Fix 10: Perform System Restore<br/> - Fix 11: Reset Windows 10"
+
     ],
     [
         "0x000000BE",
         "This BSOD will display if a driver attempts to write to a\nread-only memory segment. BSOD error code 0x000000BE may also show \"ATTEMPTED_WRITE_TO_READONLY_MEMORY\" on the same blue screen.",
-        null
+        " - Install Windows Updates<br/> - Expand the start menu by hitting the Windows icon or pressing CTRL + ESC or the Win Key on the keyboard.<br/> - Input Windows Update into the search bar. You will realize Windows update under programs on top of the search result list. Select it.<br/> - On new opened Control Panel, System and Security, Windows Update page, click on Install updates button"
+
     ],
     [
         "0x000000BF",
         "This BSOD means that a thread attempted to acquire ownership of a mutex it already owned. BSOD error code 0x000000BF may also show \"MUTEX_ALREADY_OWNED\" on the same blue screen.",
-        null
+        " - Fix #1: Run a clean boot<br/> - Fix #2: Update drivers<br/> - Fix #3: Repair corrupted system files with the SFC command<br/> - Fix #4: Reinstall Windows"
+
     ],
     [
         "0x000000C1",
         "This BSOD means that the driver wrote to an invalid section of the special pool. BSOD error code 0x000000C1 may also show \"SPECIAL_POOL_DETECTED_MEMORY_CORRUPTION\" on the same blue screen.",
-        null
+        " - Fix #1: Run a clean boot<br/> - Fix #2: Update drivers<br/> - Fix #3: Repair corrupted system files with the SFC command<br/> - Fix #4: Reinstall Windows"
+
     ],
     [
         "0x000000C2",
         "This BSOD means that the current thread is making a bad pool request. BSOD error code 0x000000C2 may also show \"\nBAD_POOL_CALLER\" on the same blue screen.",
-        null
+        " - Install Windows Updates<br/> - Expand the start menu by hitting the Windows icon or pressing CTRL + ESC or the Win Key on the keyboard.<br/> - Input Windows Update into the search bar. You will realize Windows update under programs on top of the search result list. Select it.<br/> - On new opened Control Panel, System and Security, Windows Update page, click on Install updates button"
+
     ],
     [
         "0x000000C4",
         "This BSOD is the general STOP code code for fatal errors found by Driver Verifier. BSOD error code 0x000000C4 may also show \"DRIVER_VERIFIER_DETECTED_VIOLATION\" on the same blue screen.",
-        null
+        " 1. Manually Run system File Checker Tool. <br/> 2. Fix Windows Registry Corrupted Files <br/> 3. Repair windows using installation disc <br/> 4. Clean installation"
+
     ],
     [
         "0x000000C5",
         "This BSOD means that the system attempted to access invalid memory at a process IRQL that was too high. BSOD error code 0x000000C5 may also show \"DRIVER_CORRUPTED_EXPOOL\" on the same blue screen.",
-        null
+        " - Fix 1: Try to disable the Driver Verifier Manager<br/> - Fix 2: Make Changes to the Drivers<br/> - Fix 3: Run the SFC Tool<br/> - Fix 4: Run the DISM Tool<br/> - Fix 5: Run the Blue Screen Troubleshooter<br/> - Fix 6: Install Latest Windows Update<br/> - Fix 7: Check for Faulty Hardware<br/> - Fix 8: Update Your BIOS<br/> - Fix 9: Update Your SSD Firmware<br/> - Fix 10: Perform System Restore<br/> - Fix 11: Reset Windows 10"
+
     ],
     [
         "0x000000C6",
         "This BSOD means that the driver attempted to access a freed memory pool. BSOD error code 0x000000C6 may also show \"DRIVER_CAUGHT_MODIFYING_FREED_POOL\" on the same blue screen.",
-        null
+        " 1. Manually Run system File Checker Tool. <br/> 2. Fix Windows Registry Corrupted Files <br/> 3. Repair windows using installation disc <br/> 4. Clean installation"
+
     ],
     [
         "0x000000C7",
         "This BSOD appears if a kernel timer or delayed procedure call (DPC) is found somewhere in memory where it is not permitted. BSOD error code 0x000000C7 may also show \"TIMER_OR_DPC_INVALID\" on the same blue screen.",
-        null
+        " - Install Windows Updates<br/> - Expand the start menu by hitting the Windows icon or pressing CTRL + ESC or the Win Key on the keyboard.<br/> - Input Windows Update into the search bar. You will realize Windows update under programs on top of the search result list. Select it.<br/> - On new opened Control Panel, System and Security, Windows Update page, click on Install updates button"
+
     ],
     [
         "0x000000C8",
         "This BSOD means that the processor's IRQL is not what it should be at this time. BSOD error code 0x000000C8 may also show \"IRQL_UNEXPECTED_VALUE\" on the same blue screen.",
-        null
+        " 1. Manually Run system File Checker Tool. <br/> 2. Fix Windows Registry Corrupted Files <br/> 3. Repair windows using installation disc <br/> 4. Clean installation"
+
     ],
     [
         "0x000000C9",
         "This BSOD is the STOP code code for all Driver Verifier I/O Verification violations. BSOD error code 0x000000C9 may also show \"DRIVER_VERIFIER_IOMANAGER_VIOLATION\" on the same blue screen.",
-        null
+        "Use Windows Update To Fix The Driver_Corrupted_Sysptes Error <br/> Press the Windows Key > type windows update > click Windows Update to open it. <br/> Install new updates using Windows Update. This can take a lot of time, <br/> depending on the number of updates to install. <br/> Identifying And Re-Installing The Faulty Driver <br/> Its a safe bet to think that a recent change to the computer might have resulted in this problem. <br/> Try restarting the computer. <br/> Try reinstalling the driver software for a recently used new device. <br/> Reconnect the device to see if that helps solve the issue. <br/> If you have no idea where the issue is coming from, then updating all drivers should do the trick."
+
     ],
     [
         "0x000000CA",
         "This BSOD means that the Plug and Play Manager encountered a severe error, probably as a result of a problematic Plug and Play driver. BSOD error code 0x000000CA may also show \"PNP_DETECTED_FATAL_ERROR\" on the same blue screen.",
-        null
+        "Method 1 - Check for Windows Updates <br/> Method 2 - Scan device performance and health <br/> Method 3 - Run Windows Defender Offline <br/> Method 4 - Uninstall recently installed software <br/> Method 5 - Unplug or uninstall external hardware <br/> Method 6 - Toggle fast startup <br/> Method 7 - Uninstall Recent Updates via Safe Mode <br/> Method 8 - Run System Restore"
+
     ],
     [
         "0x000000CB",
         "This BSOD means that a driver or the I/O manager failed to release locked pages after an I/O operation. BSOD error code 0x000000CB may also show \"DRIVER_LEFT_LOCKED_PAGES_IN_PROCESS\" on the same blue screen.",
-        null
+        "Use Windows Update To Fix The Driver_Corrupted_Sysptes Error <br/> Press the Windows Key > type windows update > click Windows Update to open it. <br/> Install new updates using Windows Update. This can take a lot of time, <br/> depending on the number of updates to install. <br/> Identifying And Re-Installing The Faulty Driver <br/> Its a safe bet to think that a recent change to the computer might have resulted in this problem. <br/> Try restarting the computer. <br/> Try reinstalling the driver software for a recently used new device. <br/> Reconnect the device to see if that helps solve the issue. <br/> If you have no idea where the issue is coming from, then updating all drivers should do the trick."
+
     ],
     [
         "0x000000CC",
         "This BSOD means that the system has referenced memory which was earlier freed. BSOD error code 0x000000CC may also show \"PAGE_FAULT_IN_FREED_SPECIAL_POOL\" on the same blue screen.",
-        null
+        "Method 1 - Check for Windows Updates <br/> Method 2 - Scan device performance and health <br/> Method 3 - Run Windows Defender Offline <br/> Method 4 - Uninstall recently installed software <br/> Method 5 - Unplug or uninstall external hardware <br/> Method 6 - Toggle fast startup <br/> Method 7 - Uninstall Recent Updates via Safe Mode <br/> Method 8 - Run System Restore"
+
     ],
     [
         "0x000000CD",
         "This BSOD means that the system accessed memory beyond the end of some driver's pool allocation. BSOD error code 0x000000CD may also show \"PAGE_FAULT_BEYOND_END_OF_ALLOCATION\" on the same blue screen.",
-        null
+        "<br/>Installed the latest update package (Service pack) and the constant updating of the system will save a lot of errors<br/>It is necessary to roll back the driver to an earlier version<br/>Check it for compatibility with your operating system<br/>If the device is incompatible with the operating system, then it is necessary either to change this device or to change the operating system that supports this device<br/>"
     ],
     [
         "0x000000CE",
         "This BSOD means that a driver failed to cancel pending operations before unloading. BSOD error code 0x000000CE may also show \"DRIVER_UNLOADED_WITHOUT_CANCELLING_PENDING_OPERATIONS\" on the same blue screen.",
-        null
+        " - Check for Windows Updates <br/> - Run System Restore <br/> - Uninstall Recent Updates via Safe Mode <br/> - Unplug or uninstall external hardware <br/> - Scan device performance and health <br/> - Run Windows Defender Offline <br/> - Uninstall recently installed software <br/> - Toggle fast startup"
     ],
     [
         "0x000000CF",
         "This BSOD means that a driver has been incorrectly ported to the terminal server. BSOD error code 0x000000CF may also show \"TERMINAL_SERVER_DRIVER_MADE_INCORRECT_MEMORY_REFERENCE\" on the same blue screen.",
-        null
+        "<br/>Installed the latest update package (Service pack) and the constant updating of the system will save a lot of errors<br/>It is necessary to roll back the driver to an earlier version<br/>Check it for compatibility with your operating system<br/>If the device is incompatible with the operating system, then it is necessary either to change this device or to change the operating system that supports this device<br/>"
     ],
     [
         "0x000000D0",
         "This BSOD means that the system attempted to access invalid memory at a process IRQL that was too high. BSOD error code 0x000000D0 may also show \"DRIVER_CORRUPTED_MMPOOL\" on the same blue screen.",
-        null
+        " - Check for Windows Updates <br/> - Run System Restore <br/> - Uninstall Recent Updates via Safe Mode <br/> - Unplug or uninstall external hardware <br/> - Scan device performance and health <br/> - Run Windows Defender Offline <br/> - Uninstall recently installed software <br/> - Toggle fast startup"
+
     ],
     [
         "0x000000D1",
         "This BSOD means that a kernel-mode driver attempted to access pageable memory at a process IRQL that was too high. BSOD error code 0x000000D1 may also show \"DRIVER_IRQL_NOT_LESS_OR_EQUAL\" on the same blue screen.",
-        null
+        "<br/>Installed the latest update package (Service pack) and the constant updating of the system will save a lot of errors<br/>It is necessary to roll back the driver to an earlier version<br/>Check it for compatibility with your operating system<br/>If the device is incompatible with the operating system, then it is necessary either to change this device or to change the operating system that supports this device<br/>"
     ],
     [
         "0x000000D2",
         "This BSOD means that a problem occurred with an NDIS driver. BSOD error code 0x000000D2 may also show \"BUGCODE_ID_DRIVER\" on the same blue screen.",
-        null
+        "1. Manually Run system File Checker Tool. <br/> 2. Fix Windows Registry Corrupted Files <br/> 3. Repair windows using installation disc <br/> 4. Clean installation"
     ],
     [
         "0x000000D3",
         "This BSOD means that the system attempted to access pageable memory at a process IRQL that was too high. BSOD error code 0x000000D3 may also show \"DRIVER_PORTION_MUST_BE_NONPAGED\" on the same blue screen.",
-        null
+        " - Check for Windows Updates <br/> - Run System Restore <br/> - Uninstall Recent Updates via Safe Mode <br/> - Unplug or uninstall external hardware <br/> - Scan device performance and health <br/> - Run Windows Defender Offline <br/> - Uninstall recently installed software <br/> - Toggle fast startup"
     ],
     [
         "0x000000D4",
         "This BSOD means that a driver did not cancel pending operations before unloading. BSOD error code 0x000000D4 may also show \"SYSTEM_SCAN_AT_RAISED_IRQL_CAUGHT_IMPROPER_DRIVER_UNLOAD\" on the same blue screen.",
-        null
+        "1. Start your computer and log on as an administrator. <br/> 2. Click the Start button then select All Programs, Accessories, System Tools, and then click System Restore. <br/> 3. Select the most recent system restore point from the “On this list, click a restore point” list, and then click Next. <br/> 4. Click Next on the confirmation window. <br/> 5. Restarts the computer when the restoration is finished."
     ],
     [
         "0x000000D5",
         "This BSOD means that a driver has referenced memory which was earlier freed. BSOD error code 0x000000D5 may also show \"DRIVER_PAGE_FAULT_IN_FREED_SPECIAL_POOL\" on the same blue screen.",
-        null
+        "1. Manually Run system File Checker Tool. <br/> 2. Fix Windows Registry Corrupted Files <br/> 3. Repair windows using installation disc <br/> 4. Clean installation"
     ],
     [
         "0x000000D6",
         "This BSOD means the driver accessed memory beyond the end of its pool allocation. BSOD error code 0x000000D6 may also show \"DRIVER_PAGE_FAULT_BEYOND_END_OF_ALLOCATION\" on the same blue screen.",
-        null
+        "1. Manually Run system File Checker Tool. <br/> 2. Fix Windows Registry Corrupted Files <br/> 3. Repair windows using installation disc <br/> 4. Clean installation"
     ],
     [
         "0x000000D7",
         "This BSOD means a driver is trying to unmap an address that was not mapped. BSOD error code 0x000000D7 may also show \"DRIVER_UNMAPPING_INVALID_VIEW\" on the same blue screen.",
-        null
+        " - Check for Windows Updates <br/> - Run System Restore <br/> - Uninstall Recent Updates via Safe Mode <br/> - Unplug or uninstall external hardware <br/> - Scan device performance and health <br/> - Run Windows Defender Offline <br/> - Uninstall recently installed software <br/> - Toggle fast startup"
     ],
     [
         "0x000000D8",
         "This BSOD means that there are no more system page table entries (PTE) remaining. BSOD error code 0x000000D8 may also show \"DRIVER_USED_EXCESSIVE_PTES\" on the same blue screen.",
-        null
+        "1. Manually Run system File Checker Tool. <br/> 2. Fix Windows Registry Corrupted Files <br/> 3. Repair windows using installation disc <br/> 4. Clean installation"
     ],
     [
         "0x000000D9",
         "This BSOD means that the internal locked-page tracking structures have been corrupted. BSOD error code 0x000000D9 may also show \"LOCKED_PAGES_TRACKER_CORRUPTION\" on the same blue screen.",
-        null
+        " - Check for Windows Updates <br/> - Run System Restore <br/> - Uninstall Recent Updates via Safe Mode <br/> - Unplug or uninstall external hardware <br/> - Scan device performance and health <br/> - Run Windows Defender Offline <br/> - Uninstall recently installed software <br/> - Toggle fast startup"
+
     ],
     [
         "0x000000DA",
         "This BSOD means that a page table entry (PTE) routine has been used in an improper way. BSOD error code 0x000000DA may also show \"SYSTEM_PTE_MISUSE\" on the same blue screen.",
-        null
+        "Option 1 – Try to disable PIT Security in the BIOS <br/> If you are using a Dell computer and it throws up this kind of Blue Screen error, you need to go to the BIOS and uncheck the PIT Security and see if it helps in fixing the problem. <br/> Tap the F2 key during the boot phase to enter the BIOS. <br/> Once you’re in the BIOS, go to the Security tab and to the PIT Security section. <br/> From there, uncheck the “PIT On” box to disable PIT Security. <br/> Now restart your computer and check if the Blue Screen error is fixed or not. <br/> Option2 - Try to update, rollback or disable device drivers "
+
     ],
     [
         "0x000000DB",
         "This BSOD means that an attempt was made to touch memory at an invalid IRQL, probably due to corruption of system PTEs. BSOD error code 0x000000DB may also show \"DRIVER_CORRUPTED_SYSPTES\" on the same blue screen.",
-        null
+        "Use Windows Update To Fix The Driver_Corrupted_Sysptes Error <br/> Press the Windows Key > type windows update > click Windows Update to open it. <br/> Install new updates using Windows Update. This can take a lot of time, <br/> depending on the number of updates to install. <br/> Identifying And Re-Installing The Faulty Driver <br/> Its a safe bet to think that a recent change to the computer might have resulted in this problem. <br/> Try restarting the computer. <br/> Try reinstalling the driver software for a recently used new device. <br/> Reconnect the device to see if that helps solve the issue. <br/> If you have no idea where the issue is coming from, then updating all drivers should do the trick."
+
     ],
     [
         "0x000000DC",
         "This BSOD means that a driver accessed a stack address that lies below the stack pointer of the stack's thread. BSOD error code 0x000000DC may also show \"DRIVER_INVALID_STACK_ACCESS\" on the same blue screen.",
-        null
+        "Method 1 - Check for Windows Updates <br/> Method 2 - Scan device performance and health <br/> Method 3 - Run Windows Defender Offline <br/> Method 4 - Uninstall recently installed software <br/> Method 5 - Unplug or uninstall external hardware <br/> Method 6 - Toggle fast startup <br/> Method 7 - Uninstall Recent Updates via Safe Mode <br/> Method 8 - Run System Restore"
+
     ],
     [
         "0x000000DE",
         "This BSOD means that a driver has corrupted pool memory that is used for holding pages destined for disk. BSOD error code 0x000000DE may also show \"POOL_CORRUPTION_IN_FILE_AREA\" on the same blue screen.",
-        null
+        "Run the SFC: <br/> Run Command Prompt as administrator. <br/> Type sfc/scannow and press Enter in the keyboard. <br/> Wait for the scan to complete. <br/> Close the CMD and reboot your computer. <br/> Run the DISM: <br/> Repeat step 1 in the above method. <br/> Type exe /Online /Cleanup-image /Restorehealth and press Enter. <br/> Wait for the command to complete. <br/> Restart your PC. <br/> Reset PC <br/> Launch Automatic Repair. <br/> Select Troubleshoot and Reset this PC in order. <br/> Choose to Remove everything. <br/> The system will ask you to insert the installation media. So you must connect your bootable USB flash drive. <br/> Choose Only the drive where Windows is installed. <br/> Select Just remove my files. <br/> Click Reset. <br/> Follow the instructions to complete."
+
     ],
     [
         "0x000000DF",
         "This BSOD means that a workitem did not disable impersonation before it completed. BSOD error code 0x000000DF may also show \"IMPERSONATING_WORKER_THREAD\" on the same blue screen.",
-        null
+        " 1. Manually Run system File Checker Tool <br/> . 2. Fix Windows Registry Corrupted Files <br/> 3. Repair windows using installation disc <br/> 4. Clean installation"
+
     ],
     [
         "0x000000E0",
         "This BSOD means that one of your computer components is faulty. BSOD error code 0x000000E0 may also show \"ACPI_BIOS_FATAL_ERROR\" on the same blue screen.",
-        null
+        " Restore Deleted Files <br/> Start The Computer in Safe Mode <br/> Update a Driver With The Device Manager <br/> Use sfc /scannow To Check All System Files <br/> Check for Errors The Disk Where Windows Is Installed By Using The Command chkdsk c: /f <br/> Use The Mode of Compatibility With an Old Version of Windows <br/> Disable Unnecessary Programs in Windows Startup Menu <br/> Consult Microsoft Support Service <br/> Install Latest System Updates <br/> Scan The System For Viruses <br/> Test Your RAM <br/> Make a Clean Installation of Windows"
+
     ],
     [
         "0x000000E1",
         "This BSOD means that a worker thread completed and returned with IRQL >= DISPATCH_LEVEL. BSOD error code 0x000000E1 may also show \"WORKER_THREAD_RETURNED_AT_BAD_IRQL\" on the same blue screen.",
-        null
+        " 1. Manually Run system File Checker Tool. <br/> 2. Fix Windows Registry Corrupted Files <br/> 3. Repair windows using installation disc <br/> 4. Clean installation"
+
     ],
     [
         "0x000000E2",
         "This BSOD means that the user deliberately initiated a crash dump from either the kernel debugger or the keyboard. BSOD error code 0x000000E2 may also show \"MANUALLY_INITIATED_CRASH\" on the same blue screen.",
-        null
+        " Method 1- SFC Scan Method <br/> In the command prompt window, type the Sfc/scannow command and hit the enter key <br/> Once the command is executed, it will scan your Windows to detect the damaged files and repair them. <br/> 2- Run the DISM Method <br/> In the command prompt window, type the below command and hit the enter key <br/> Dism /online /cleanup-image /checkhealth <br/> Dism /online /cleanup-image /scanhealth <br/> Dism /online /cleanup-image /restorehealth <br/> 3- Run Blue Screen Troubleshooter Method  <br/> 4- Update Drivers Method <br/> 5- Check for Windows Update Method <br/> 6- Perform a System Restore"
+
     ],
     [
         "0x000000E3",
         "This BSOD means that a thread tried to release a resource it did not own. BSOD error code 0x000000E3 may also show \"RESOURCE_NOT_OWNED\" on the same blue screen.",
-        null
+        " 1. Manually Run system File Checker Tool <br/> . 2. Fix Windows Registry Corrupted Files <br/> 3. Repair windows using installation disc <br/> 4. Clean installation"
+
     ],
     [
         "0x000000E4",
         "This BSOD means that memory that should not contain an executive worker item does contain such an item, or that a currently active worker item was queued. BSOD error code 0x000000E4 may also show \"WORKER_INVALID\" on the same blue screen.",
-        null
+        " - Disable and remove AVG<br/> - Press the Windows key on your keyboard, and type in Change or remove a program, then open the result.<br/> - You will be presented with a list of software that is currently installed on your system. Find AVG, it should be near the top if the software is sorted alphabetically. Click on it.<br/> - On the top, you will see an Uninstall Click it, and follow the instructions of the uninstall wizard.<br/> - Reboot your computer when the software has uninstalled, to remove any leftover files or traces of it."
+
     ],
     [
         "0x000000E6",
         "This BSOD is the STOP code for all Driver Verifier DMA Verification violations. BSOD error code 0x000000E6 may also show \"DRIVER_VERIFIER_DMA_VIOLATION\" on the same blue screen.",
-        null
+        " - Fix 1: Try to disable the Driver Verifier Manager<br/> - Fix 2: Make Changes to the Drivers<br/> - Fix 3: Run the SFC Tool<br/> - Fix 4: Run the DISM Tool<br/> - Fix 5: Run the Blue Screen Troubleshooter<br/> - Fix 6: Install Latest Windows Update<br/> - Fix 7: Check for Faulty Hardware<br/> - Fix 8: Update Your BIOS<br/> - Fix 9: Update Your SSD Firmware<br/> - Fix 10: Perform System Restore<br/> - Fix 11: Reset Windows 10"
+
     ],
     [
         "0x000000E7",
         "This BSOD means that a thread's saved floating-point state is invalid. BSOD error code 0x000000E7 may also show \"INVALID_FLOATING_POINT_STATE\" on the same blue screen.",
-        null
+        " - Manually Run System File Checker Tool.<br/> - Fix Windows Registry Corrupted Files<br/> - Repair windows using installation disc<br/> - Clean installation"
+
     ],
     [
         "0x000000E8",
         "This BSOD means that an invalid file object was passed to IoCancelFileOpen. BSOD error code 0x000000E8 may also show \"INVALID_CANCEL_OF_FILE_OPEN\" on the same blue screen.",
-        null
+        " - Start your computer and log on as an administrator.<br/> - Click the Start button then select All Programs, Accessories, System Tools, and then click System Restore.<br/> - Select the most recent system restore point from the “On this list, click a restore point” list, and then click Next.<br/> - Click Next on the confirmation window.<br/> - Restarts the computer when the restoration is finished."
+
     ],
     [
         "0x000000E9",
         "This BSOD means that an active executive worker thread is being terminated. BSOD error code 0x000000E9 may also show \"ACTIVE_EX_WORKER_THREAD_TERMINATION\" on the same blue screen.",
-        null
+        " - Reboot the computer.<br/> - Disconnect all external devices.<br/> - Scan Windows for errors.<br/> - Boot into safe mode.<br/> - Update the drivers.<br/> - Perform a Windows Startup Repair.<br/> - Scan the PC for malware.<br/> - Test the hard drives.<br/> - Perform a clean install of Windows."
+
     ],
     [
         "0x000000EA",
         "This BSOD means that a thread in a device driver is endlessly spinning. BSOD error code 0x000000EA may also show \"THREAD_STUCK_IN_DEVICE_DRIVER\" on the same blue screen.",
-        null
+        " - Method 1: Update your video card driver<br/> - Method 2: Check the problem of your video card"
+
     ],
     [
         "0x000000EB",
         "This BSOD means that no free pages are available to continue operations. BSOD error code 0x000000EB may also show \"DIRTY_MAPPED_PAGES_CONGESTION\" on the same blue screen.",
-        null
+        " - Install Windows Updates<br/> - Expand the start menu by hitting the Windows icon or pressing CTRL + ESC or the Win Key on the keyboard.<br/> - Input Windows Update into the search bar. You will realize Windows update under programs on top of the search result list. Select it.<br/> - On new opened Control Panel, System and Security, Windows Update page, click on Install updates button"
+
     ],
     [
         "0x000000EC",
         "This BSOD means that a session unload occurred while a session driver still held memory. BSOD error code 0x000000EC may also show \"SESSION_HAS_VALID_SPECIAL_POOL_ON_EXIT\" on the same blue screen.",
-        null
+        " - Start The Computer in Safe Mode<br/> - Use sfc scannow To Check All System Files<br/> - Disable Unnecessary Programs in Windows Startup Menu<br/> - Install Latest System Updates"
+
     ],
     [
         "0x000000ED",
         "This BSOD means that the I/O subsystem attempted to mount the boot volume and it failed. BSOD error code 0x000000ED may also show \"UNMOUNTABLE_BOOT_VOLUME\" on the same blue screen.",
-        null
+        " - Step 1 – Fixing Corrupted Boot Volume<br/> - Step 2 – Fixing Corrupted Windows Files<br/> - Step 3 – Error Fixing By Changing A Bios Setting<br/> - Step 4 – Fixing Fault By Troubleshooting Hardware"
+
     ],
     [
         "0x000000EF",
         "This BSOD means that a critical system process died. BSOD error code 0x000000EF may also show \"CRITICAL_PROCESS_DIED\" on the same blue screen.",
-        null
+        " - Fix #1: Run a clean boot<br/> - Fix #2: Update drivers<br/> - Fix #3: Repair corrupted system files with the SFC command<br/> - Fix #4: Reinstall Windows"
+
     ],
     [
         "0x000000F1",
         "This BSOD This is the STOP code code for all Driver Verifier SCSI Verification violations. BSOD error code 0x000000F1 may also show \"SCSI_VERIFIER_DETECTED_VIOLATION\" on the same blue screen.",
-        null
+        "<br/>Go to Control Panel<br/>Click System and Maintenance<br/>Advanced system settings (left hand panel)<br/>Settings button under startup and recovery<br/>Clear the checkbox “automatically restart” under System failure<br/>Click OK twice and close the control panel<br/>"
+
     ],
     [
         "0x000000F3",
         "This BSOD means that Windows was unable to shut down due to lack of memory. BSOD error code 0x000000F3 may also show \"DISORDERLY_SHUTDOWN\" on the same blue screen.",
-        null
+        "<br/>You need to increase the total amount of RAM in the computer.<br/>"
+
     ],
     [
         "0x000000F4",
         "This BSOD means that a process or thread crucial to system operation has unexpectedly exited or been terminated. BSOD error code 0x000000F4 may also show \"CRITICAL_OBJECT_TERMINATION\" on the same blue screen.",
-        null
+        "<br/>The first and easiest step in fixing bsod 0x000000f4 is to clean your disks. <br/>The solution to the second symptom is to install and start the malware search process using the “Curelt!” Application released by Dr Web.<br/>The third reason is corrected by launching a special service responsible for installing updates. You should wait for the process to complete and reboot the OS.<br/>"
+
     ],
     [
         "0x000000F5",
         "This BSOD means that an unrecoverable failure occurred in the Filter Manager. BSOD error code 0x000000F5 may also show \"FLTMGR_FILE_SYSTEM\" on the same blue screen.",
-        null
+        "<br/>Run a system scan for viruses. <br/>If Parameter 1 is 0x66, you can debug this problem by checking that the minifilter driver has registered a post-work callback for this job. The current job can be found in the callback data structure. Use the debugger extension fltkd.cbd.<br/>If Parameter 1 is 0x67, then you should check that you do not have a pool of non-pumped memory somewhere in the system.<br/>If Parameter 1 is 0x6A, make sure that the minifilter driver does not reference this file object to receive a descriptor at any point during processing of the minifilter of this operation.<br/>If Parameter 1 is 0x6B or 0x6C, then an unrecoverable internal state error has occurred that will cause the operating system to listen to the check.<br/>If Parameter 1 is 0x6D, make sure that the minifilter driver does not call FltReleaseContext too many times for a given context.<br/>If Parameter 1 is 0x6E, make sure that the minifilter driver does not call FltReferenceContext after this context has been deleted.<br/>"
+
     ],
     [
         "0x000000F6",
         "This BSOD means that an error occurred in the BIOS or another device being verified by the PCI driver. BSOD error code 0x000000F6 may also show \"PCI_VERIFIER_DETECTED_VIOLATION\" on the same blue screen.",
-        null
+        "<br/>First, reset the BIOS to default. <br/>If the error appears again, you must update the PCI driver<br/>"
+
     ],
     [
         "0x000000F7",
         "This BSOD means that a driver has overrun a stack-based buffer. BSOD error code 0x000000F7 may also show \"DRIVER_OVERRAN_STACK_BUFFER\" on the same blue screen.",
-        null
+        "<br/>This is a classic hacking attack - buffer overflow. <br/>The system was put down to prevent the malicious user from gaining full control over it. <br/>Check your computer for viruses.<br/>"
+
     ],
     [
         "0x000000F8",
         "This BSOD means that an initialization failure occurred while attempting to boot from the\nRAM disk. BSOD error code 0x000000F8 may also show \"RAMDISK_BOOT_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        "<br/>Try uninstalling the AVZ driver.<br/>"
+
     ],
     [
         "0x000000F9",
         "This BSOD means that a driver returned STATUS_REPARSE to an IRP_MJ_CREATE request with no trailing names. BSOD error code 0x000000F9 may also show \"DRIVER_RETURNED_STATUS_REPARSE_FOR_VOLUME_OPEN\" on the same blue screen.",
-        null
+        "<br/>The system must be checked for viruses and file integrity<br/>"
+
     ],
     [
         "0x000000FA",
         "This BSOD means that the HTTP kernel driver (Http.sys) has reached a corrupted state and cannot recover. BSOD error code 0x000000FA may also show \"HTTP_DRIVER_CORRUPTED\" on the same blue screen.",
-        null
+        "<br/>Installed the latest update package (Service pack) and the constant updating of the system will save a lot of errors<br/>It is necessary to roll back the driver to an earlier version<br/>Check it for compatibility with your operating system<br/>If the device is incompatible with the operating system, then it is necessary either to change this device or to change the operating system that supports this device<br/>"
+
     ],
     [
         "0x000000FC",
         "This BSOD means that an attempt was made to execute non-executable memory. BSOD error code 0x000000FC may also show \"ATTEMPTED_EXECUTE_OF_NOEXECUTE_MEMORY\" on the same blue screen.",
-        null
+        "<br/>Installed the latest update package (Service pack) and the constant updating of the system will save a lot of errors<br/>It is necessary to roll back the driver to an earlier version<br/>Check it for compatibility with your operating system<br/>If the device is incompatible with the operating system, then it is necessary either to change this device or to change the operating system that supports this device<br/>"
+
     ],
     [
         "0x000000FD",
         "This BSOD means that there are no free pages available to continue basic system operations. BSOD error code 0x000000FD may also show \"DIRTY_NOWRITE_PAGES_CONGESTION\" on the same blue screen.",
-        null
+        "<br/>Identify a failed driver.<br/>Roll back or update the operating system.<br/>"
+
     ],
     [
         "0x000000FE",
         "This BSOD means that an error has occurred in a\nUniversal Serial Bus (USB) driver. BSOD error code 0x000000FE may also show \"BUGCODE_USB_DRIVER\" on the same blue screen.",
-        null
+        "<br/>Installed the latest update package (Service pack) and the constant updating of the system will save a lot of errors<br/>It is necessary to roll back the driver to an earlier version<br/>Check it for compatibility with your operating system<br/>If the device is incompatible with the operating system, then it is necessary either to change this device or to change the operating system that supports this device<br/>"
+
     ],
     [
         "0x000000FF",
         "This BSOD means that an attempt was made to insert a new item into a reserve queue, causing the queue to overflow. BSOD error code 0x000000FF may also show \"RESERVE_QUEUE_OVERFLOW\" on the same blue screen.",
-        null
+        "<br/>Click Start -> Run -> and enter the verifier command.<br/>Select “Create custom parameters” and click on the button.<br/>Select the parameters you need, uncheck the option \"Detect deadlocks\" and click next.<br/>Then mark the drivers you want to check, click \"Finish\" or \"Next\" and then restart the computer.<br/>Start the computer in safe mode, start the driver manager and delete the necessary parameters.<br/>"
+
     ],
     [
         "0x00000100",
         "This BSOD means that either the loader block is invalid, or it does not match the system that is being loaded. BSOD error code 0x00000100 may also show \"LOADER_BLOCK_MISMATCH\" on the same blue screen.",
-        null
+        "<br/>Restart your computer<br/>Update your operating system to receive the latest updates on the Microsoft website<br/>If you have not installed new equipment, you should check the mains voltage. It must be at least 210V.<br/>Check the RAM for operability and errors<br/>Check for free space on your hard drive. If there is not enough space, then delete some of the data<br/>If you can’t log in to Windows, then try to boot from the last successful configuration<br/>If you are configuring the BIOS yourself, try resetting to default settings<br/>Check the system for viruses<br/>If error 0x00000100 appears during system installation, then possibly there is not enough RAM. Add<br/>"
+
     ],
     [
         "0x00000101",
         "This BSOD means that an expected clock interrupt on a secondary processor, in a multi-processor system, was not received within the allocated interval. BSOD error code 0x00000101 may also show \"CLOCK_WATCHDOG_TIMEOUT\" on the same blue screen.",
-        null
+        "<br/>Try to return to the BIOS and set the default parameters<br/>Check out the BIOS update methodology on the official website of your motherboard manufacturer<br/>Reinstall the graphics driver<br/>You will need to create bootable Memtest86 + media and then boot through it.<br/>"
+
     ],
     [
         "0x00000103",
         "This BSOD means that the multiple UNC provider (MUP) has encountered invalid or unexpected data. As a result, the MUP cannot channel a remote file system request to a network redirector, the Universal Naming Convention (UNC) provider. BSOD error code 0x00000103 may also show \"MUP_FILE_SYSTEM\" on the same blue screen.",
-        null
+        "<br/>Installed the latest update package (Service pack) and the constant updating of the system will save a lot of errors<br/>It is necessary to roll back the driver to an earlier version<br/>Check it for compatibility with your operating system<br/>If the device is incompatible with the operating system, then it is necessary either to change this device or to change the operating system that supports this device<br/>"
+
     ],
     [
         "0x00000104",
         "This BSOD means that the GPU wrote to a range of\nAccelerated Graphics Port (AGP) memory that had not previously been committed. BSOD error code 0x00000104 may also show \"AGP_INVALID_ACCESS\" on the same blue screen.",
-        null
+        "<br/>Install the latest update package (Service pack) <br/>Change this device or to change the operating system that supports this device<br/>"
+
     ],
     [
         "0x00000105",
         "This BSOD means that the Graphics Aperture Remapping Table (GART) is corrupt. BSOD error code 0x00000105 may also show \"AGP_GART_CORRUPTION\" on the same blue screen.",
-        null
+        "<br/>Installed the latest update package <br/>If the latest drivers are installed, you need to install an earlier version of the drivers. If the device is incompatible with the operating system, then it is necessary either to change this device or to change the operating system that supports this device.<br/>"
+
     ],
     [
         "0x00000106",
         "This BSOD means that the Accelerated Graphics Port (AGP) hardware has been reprogrammed by an unauthorized agent. BSOD error code 0x00000106 may also show \"AGP_ILLEGALLY_REPROGRAMMED\" on the same blue screen.",
-        null
+        "<br/>Install the latest update package (Service pack) <br/>Change this device or to change the operating system that supports this device<br/>"
+
     ],
     [
         "0x00000108",
         "This BSOD means that an unrecoverable problem has occurred in a third-party file system or file system filter. BSOD error code 0x00000108 may also show \"THIRD_PARTY_FILE_SYSTEM_FAILURE\" on the same blue screen.",
-        null
+        "<br/>Perform hardware and file system diagnostics<br/>Add new physical memory to the computer.<br/>"
+
     ],
     [
         "0x00000109",
         "This BSOD means that the kernel has detected critical kernel code or data corruption. BSOD error code 0x00000109 may also show \"CRITICAL_STRUCTURE_CORRUPTION\" on the same blue screen.",
-        null
+        "<br/>Activate an automatic tool to find and repair damaged files<br/>Wait for the results and restart the PC<br/>Perform a registry fix<br/>Start in safe mode<br/>"
+
     ],
     [
         "0x0000010A",
         "This BSOD is uncommon. BSOD error code 0x0000010A may also show \"APP_TAGGING_INITIALIZATION_FAILED\" on the same blue screen.",
-        null
+        "<br/>check the recently installed drivers,<br/>Compare the installed driver with the latest updated version<br/>Install software updates and patches<br/>Turn off the computer, remove the device, and reboot the system<br/>"
+
     ],
     [
         "0x0000010C",
         "This BSOD means that a violation was detected in the File system Run-time library (FsRtl) Extra Create Parameter (ECP) package. BSOD error code 0x0000010C may also show \"FSRTL_EXTRA_CREATE_PARAMETER_VIOLATION\" on the same blue screen.",
-        null
+        "<br/>Manually Run system File Checker Tool <br/>Fix Windows Registry Corrupted Files<br/>Repair windows using installation disc<br/>Clean installation<br/>"
+
     ],
     [
         "0x0000010D",
         "This BSOD means that Kernel-Mode Driver Framework (KMDF) detected that Windows found an error in a framework-based driver. BSOD error code 0x0000010D may also show \"WDF_VIOLATION\" on the same blue screen.",
-        null
+	    "-Restart your PC and press F2 to enter BIOS.<br/>-When BIOS window opens, navigate to Advanced Tab > Miscellaneous Devices > External USB Ports.<br/>-Disable the External USB ports.<br/>-Save the changes and reboot your PC.Now a Repair screen should open.<br/>-Select System Restore option.<br/>Use this option to restore Windows to the previous state.<br/>-When the system is restored, open BIOS as explained above and enable the External USB ports"
     ],
     [
         "0x0000010E",
         "This BSOD means that the video memory manager has encountered a condition that it is unable to recover from. BSOD error code 0x0000010E may also show \"VIDEO_MEMORY_MANAGEMENT_INTERNAL\" on the same blue screen.",
-        null
+        "1. Manually Run system File Checker Tool<br/>2. Fix Windows Registry Corrupted Files<br/>3. Repair windows using installation disc<br/>4. Clean installation<br/>"
     ],
     [
         "0x0000010F",
         "This BSOD means that the kernel transaction manager detected that a kernel-mode resource manager has raised an exception in response to a direct call-back. The resource manager is in an unexpected and unrecoverable state. BSOD error code 0x0000010F may also show \"RESOURCE_MANAGER_EXCEPTION_NOT_HANDLED\" on the same blue screen.",
-        null
+        "1. Manually Run system File Checker Tool<br/>2. Fix Windows Registry Corrupted Files<br/>3. Repair windows using installation disc<br/>4. Clean installation<br/>"
+
     ],
     [
         "0x00000111",
         "This BSOD means that a non-maskable-interrupt (NMI) occurred while a previous NMI was in progress. BSOD error code 0x00000111 may also show \"RECURSIVE_NMI\" on the same blue screen.",
-        null
+        "1. Manually Run system File Checker Tool<br/>2. Fix Windows Registry Corrupted Files<br/>3. Repair windows using installation disc<br/>4. Clean installation<br/>"
     ],
     [
         "0x00000112",
         "This BSOD means that the Msrpc.sys driver has initiated a STOP code. BSOD error code 0x00000112 may also show \"MSRPC_STATE_VIOLATION\" on the same blue screen.",
-        null
+        "1. Manually Run system File Checker Tool<br/>2. Fix Windows Registry Corrupted Files<br/>3. Repair windows using installation disc<br/>4. Clean installation<br/>"
     ],
     [
         "0x00000113",
         "This BSOD means that the dxg kernel has detected a violation. BSOD error code 0x00000113 may also show \"VIDEO_DXGKRNL_FATAL_ERROR\" on the same blue screen.",
-        null
+        "-Disable Fast Startup.<br/>-Run Blue Screen Troubleshooter.<br/>-Run SFC/DISM.<br/>Update/Reinstall Display Driver.<br/>-Set the Default Graphics Adapter in BIOS.<br/>-Check Random Access Memory.<br/>-Perform System Restore.<br/>-Manually Update Windows 10"
     ],
     [
         "0x00000114",
         "This BSOD means that the shadow driver has detected a violation. BSOD error code 0x00000114 may also show \"VIDEO_SHADOW_DRIVER_FATAL_ERROR\" on the same blue screen.",
-        null
+        "1. Manually Run system File Checker Tool<br/>2. Fix Windows Registry Corrupted Files<br/>3. Repair windows using installation disc<br/>4. Clean installation<br/>"
+
     ],
     [
         "0x00000115",
         "This BSOD means that the accelerated graphics port (AGP) driver has detected a violation. BSOD error code 0x00000115 may also show \"AGP_INTERNAL\" on the same blue screen.",
-        null
+        "-Go to the start button and type Device Manager in the search box.<br/>-Click the device manager to open it.<br/>-Click on the display adapters in the opening window.<br/>-Right click on the graphic adapter’s name and then click on the update driver software.<br/>-Now go through the entire instruction to install the driver."
     ],
     [
         "0x00000116",
         "This BSOD means that an attempt to reset the display driver and recover from a timeout failed. BSOD error code 0x00000116 may also show \"VIDEO_TDR_ERROR\" on the same blue screen.",
-        null
+        "1. Perform a clean install for your graphics card driver.<br/>2.Turn off your monitor's sleep function.<br/>Reinstall your game."
     ],
     [
         "0x00000117",
         "This BSOD means that the display driver failed to respond in a timely fashion. BSOD error code 0x00000117 may also show \"VIDEO_TDR_TIMEOUT_DETECTED\" on the same blue screen.",
-        null
+        "- You may need to install the latest updates for your display driver, so that it properly supports the TDR process.<br/>-Hardware issues that impact the ability of the video card to operate properly, including:Over-clocked components, such as the motherboard,Incorrect component compatibility and settings (especially memory configuration and timings),Insufficient system cooling,Insufficient system power,Defective parts (memory modules, motherboards, etc.)Visual effects, or too many programs running in the background may be slowing your PC down so that the video card can not respond as necessary."
     ],
     [
         "0x00000119",
         "This BSOD means that the video scheduler has detected a fatal violation. BSOD error code 0x00000119 may also show \"VIDEO_SCHEDULER_INTERNAL_ERROR\" on the same blue screen.",
-        null
+        " Method 1: Preventive and Quick Fix <br/> As soon as the issue is about the occur and the error comes up, <br/> you would have noticed the lag and sound distortion. <br/> Quickly press the ALT + tab key, and wait for a while, <br/> the game will return to normal. "
+
     ],
     [
         "0x0000011A",
         "This BSOD is uncommon. BSOD error code 0x0000011A may also show \"EM_INITIALIZATION_FAILURE\" on the same blue screen.",
-        null
+        " Solution 1: Perform System Restore <br/> Solution 2: Roll Back Drivers <br/> Solution 3: Scan your System for Virus <br/> Solution 4: Repair Registry Entry <br/> Solution 5: Run SFC Scan <br/> Solution 6: Check Hard Drive for Corruption"
+
     ],
     [
         "0x0000011B",
         "This BSOD means that a driver has returned from a cancel routine that holds the global cancel lock. This causes all later cancellation calls to fail, and results in either a deadlock or another STOP code. BSOD error code 0x0000011B may also show \"DRIVER_RETURNED_HOLDING_CANCEL_LOCK\" on the same blue screen.",
-        null
+        " - Restore Deleted Files <br/> - Start The Computer in Safe Mode <br/> - Update a Driver With The Device Manager <br/> - Use sfc /scannow To Check All System Files <br/> - Check for Errors The Disk Where Windows Is Installed By Using The Command chkdsk c: /f <br/> - Use The Mode of Compatibility With an Old Version of Windows <br/> - Disable Unnecessary Programs in Windows Startup Menu <br/> - Consult Microsoft Support Service <br/> - Install Latest System Updates <br/> - Scan The System For Viruses <br/> - Test Your RAM <br/> - Make a Clean Installation of Windows"
+
     ],
     [
         "0x0000011C",
         "This BSOD means that an attempt was made to write to the read-only protected storage of the configuration manager. BSOD error code 0x0000011C may also show \"ATTEMPTED_WRITE_TO_CM_PROTECTED_STORAGE\" on the same blue screen.",
-        null
+        " - Check for Windows Updates <br/> - Run System Restore <br/> - Uninstall Recent Updates via Safe Mode <br/> - Unplug or uninstall external hardware <br/> - Scan device performance and health <br/> - Run Windows Defender Offline <br/> - Uninstall recently installed software <br/> - Toggle fast startup"
+
     ],
     [
         "0x0000011D",
         "This BSOD means that the Event Tracing subsystem has encountered an unexpected fatal error. BSOD error code 0x0000011D may also show \"EVENT_TRACING_FATAL_ERROR\" on the same blue screen.",
-        null
+        " Fix #1: Uninstall Any Recently Installed App <br/> Fix #2: Temporarily Disable Third-Party Antivirus <br/> Fix #3: Run the Windows App Troubleshooter <br/> Fix #4: Run SFC <br/> Fix #5: Update Windows"
+
     ],
     [
         "0x00000121",
         "This BSOD means that a driver has caused a violation. BSOD error code 0x00000121 may also show \"DRIVER_VIOLATION\" on the same blue screen.",
-        null
+        " - Solution 1: Run Blue Screen Troubleshooter <br/> - Solution 2: Update Device Driver <br/> - Solution 3: Change Min/Max Processor State <br/> - Solution 4: Run Windows Memory Diagnostic <br/> - Solution 5: Check Hard Drive Issues <br/> - Solution 6: Run SFC Scan <br/> - Solution 7: Disable Overclocking <br/> - Solution 8: Disable Driver Signature Enforcement"
+
     ],
     [
         "0x00000122",
         "This BSOD means that an internal error in the Windows Hardware Error Architecture (WHEA) has occurred. BSOD error code 0x00000122 may also show \"WHEA_INTERNAL_ERROR\" on the same blue screen.",
-        null
+        "1. Manually Run system File Checker Tool. <br/> 2. Fix Windows Registry Corrupted Files <br/> 3. Repair windows using installation disc <br/> 4. Clean installation "
+
     ],
     [
         "0x00000124",
         "This BSOD means that a fatal hardware error has occurred. uses the error data that is provided by the\nWindows Hardware Error Architecture (WHEA). BSOD error code 0x00000124 may also show \"WHEA_UNCORRECTABLE_ERROR\" on the same blue screen.",
-        null
+        "1. Manually Run system File Checker Tool. <br/> 2. Fix Windows Registry Corrupted Files <br/> 3. Repair windows using installation disc <br/> 4. Clean installation "
+
     ],
     [
         "0x00000127",
         "This BSOD means that a page that should have been filled with zeros was not. This might occur because of a hardware error or because a privileged component of the operating system modified a page after freeing it. BSOD error code 0x00000127 may also show \"PAGE_NOT_ZERO\" on the same blue screen.",
-        null
+        "1. Manually Run system File Checker Tool. <br/> 2. Fix Windows Registry Corrupted Files <br/> 3. Repair windows using installation disc <br/> 4. Clean installation "
+
     ],
     [
         "0x0000012B",
         "This BSOD means that a single-bit error was found in this page. This is a hardware memory error. BSOD error code 0x0000012B may also show \"FAULTY_HARDWARE_CORRUPTED_PAGE\" on the same blue screen.",
-        null
+        "1. Manually Run system File Checker Tool. <br/> 2. Fix Windows Registry Corrupted Files <br/> 3. Repair windows using installation disc <br/> 4. Clean installation "
+
     ],
     [
         "0x0000012C",
         "This BSOD means that a problem occurred in the\nExtended File Allocation Table (exFAT) file system. BSOD error code 0x0000012C may also show \"EXFAT_FILE_SYSTEM\" on the same blue screen.",
-        null
+        "1. Manually Run system File Checker Tool. <br/> 2. Fix Windows Registry Corrupted Files <br/> 3. Repair windows using installation disc <br/> 4. Clean installation "
+
     ],
     [
         "0x1000007E",
         "This BSOD means that a system thread generated an exception which the error handler did not catch. BSOD error code 0x1000007E may also show \"SYSTEM_THREAD_EXCEPTION_NOT_HANDLED_M\" on the same blue screen.",
-        null
+        "1. Start your computer and log on as an administrator. <br/> 2. Click the Start button then select All Programs, Accessories, System Tools, and then click System Restore. <br/> 3. Select the most recent system restore point from the “On this list, click a restore point” list, and then click Next. <br/> 4. Click Next on the confirmation window. <br/> 5. Restarts the computer when the restoration is finished."
+
     ],
     [
         "0x1000007F",
         "This BSOD means that a trap was generated by the Intel CPU and the kernel failed to catch this trap. BSOD error code 0x1000007F may also show \"UNEXPECTED_KERNEL_MODE_TRAP_M\" on the same blue screen.",
-        null
+        "1. Manually Run system File Checker Tool. <br/> 2. Fix Windows Registry Corrupted Files <br/> 3. Repair windows using installation disc <br/> 4. Clean installation"
+
     ],
     [
         "0x1000008E",
         "This BSOD means that a kernel-mode program generated an exception which the error handler did not catch. BSOD error code 0x1000008E may also show \"KERNEL_MODE_EXCEPTION_NOT_HANDLED_M\" on the same blue screen.",
-        null
+        "1. Manually Run system File Checker Tool. <br/> 2. Fix Windows Registry Corrupted Files <br/> 3. Repair windows using installation disc <br/> 4. Clean installation "
+
     ],
     [
         "0x100000EA",
         "This BSOD means that a thread in a device driver is endlessly spinning. BSOD error code 0x100000EA may also show \"THREAD_STUCK_IN_DEVICE_DRIVER_M\" on the same blue screen.",
-        null
+        "1. Manually Run system File Checker Tool. <br/> 2. Fix Windows Registry Corrupted Files <br/> 3. Repair windows using installation disc <br/> 4. Clean installation "
+
     ],
     [
         "0xC0000218",
         "This BSOD means that a registry file could not be loaded. BSOD error code 0xC0000218 may also show \"STATUS_CANNOT_LOAD_REGISTRY_FILE\" on the same blue screen.",
-        null
+        "1. Manually Run system File Checker Tool. <br/> 2. Fix Windows Registry Corrupted Files <br/> 3. Repair windows using installation disc <br/> 4. Clean installation"
+
     ],
     [
         "0xC000021A",
         "This BSOD means that an error has occurred in a crucial user-mode subsystem. BSOD error code 0xC000021A may also show \"STATUS_SYSTEM_PROCESS_TERMINATED\" on the same blue screen.",
-        null
+        " 1. Reset all update service manually. <br/> 2. Download and Install windows update manually <br/> 3. Repair windows using installation disc <br/> 4. Clean installation"
+
     ],
     [
         "0xC0000221",
         "This BSOD means that a driver or a system\nDLL has been corrupted. BSOD error code 0xC0000221 may also show \"STATUS_IMAGE_CHECKSUM_MISMATCH\" on the same blue screen.",
-        null
+        "1. Start your computer and log on as an administrator. <br/> 2. Click the Start button then select All Programs, Accessories, System Tools, and then click System Restore. <br/> 3. Select the most recent system restore point from the “On this list, click a restore point” list, and then click Next. <br/> 4. Click Next on the confirmation window. <br/> 5. Restarts the computer when the restoration is finished."
+
     ],
     [
         "0xC0000225",
         "This BSOD means that Windows is unable to find the correct system files to initiate booting. BSOD error code 0xC0000225 may also show another message on the same blue screen, like \"Boot selection failed because a required device is inaccessible.\" or \"A required device isn't connected or can't be accessed.\"",
-        null
+        "1. Start your computer and log on as an administrator. <br/> 2. Click the Start button then select All Programs, Accessories, System Tools, and then click System Restore. <br/> 3. Select the most recent system restore point from the “On this list, click a restore point” list, and then click Next. <br/> 4. Click Next on the confirmation window. <br/> 5. Restarts the computer when the restoration is finished."
+
     ],
     [
         "0xDEADDEAD",
         "This BSOD means that the user deliberately initiated a crash dump from either the kernel debugger or the keyboard. BSOD error code 0xDEADDEAD may also show \"MANUALLY_INITIATED_CRASH1\" on the same blue screen. (Yes, this means a self-inflicted BSOD!)",
-        null
+        " - Check for Windows Updates <br/> - Run System Restore <br/> - Uninstall Recent Updates via Safe Mode <br/> - Unplug or uninstall external hardware <br/> - Scan device performance and health <br/> - Run Windows Defender Offline <br/> - Uninstall recently installed software <br/> - Toggle fast startup"
+
     ]
 ]

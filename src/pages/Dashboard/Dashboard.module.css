@@ -1,18 +1,10 @@
 @import url("../../theme/variables.css");
 
-.dash{
+.slide_bg{
     background: white;
-    background: radial-gradient(circle, rgba(255,255,255, 0.75) 40%, rgba(255,255,255,0) 100%), url("https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=375&q=80");
+    background: url("background.png");
     background-position: center;
-    background-size: cover;
-    min-height: 20vh;
-    background-attachment: fixed;
-    
-    display: flex;
-    justify-content:flex-start;
-    align-items:flex-end;
-
-    padding: 5%;
+    background-size: 100%;
 }
 
 .title{
@@ -23,13 +15,24 @@
 
 
 .cssGrid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    /*display: grid;
+    grid-template-columns: repeat(2, 1fr);*/
+
+    height: 100%;
+    width: 100%;
+  
+  
+    
 }
 
 .mainCard{
     position: relative;
     margin: 0.2rem;
+    height: 12cm;
+    width: 6.5cm;
+    border-radius: 32px;
+    margin-bottom: 45pt;
+    
 }
 
 .selectCard{
@@ -43,6 +46,7 @@
 .titleCard{
     font-size: 1.75rem;
     margin: 0;
+    float: right;
 }
 
 .cardLogo{
@@ -54,8 +58,11 @@
 }
 
 .buildPC{
-    --background: linear-gradient(241deg, rgba(var(--ion-color-primary-rgb),1) 0%, rgba(var(--ion-color-secondary-rgb),1) 100%);
-    grid-column: span 2;
+   --background: linear-gradient(241deg, rgba(var(--ion-color-primary-rgb),1) 0%, rgba(var(--ion-color-secondary-rgb),1) 100%);
+   grid-column: span 2;
+   margin-right: 100px;
+
+    
 }
 
 :root{
@@ -64,7 +71,7 @@
 }
 
 .what{
-    color: var(--redtheme;)
+    color: var(--redtheme)
 }
 
 .loadPC{
@@ -85,10 +92,13 @@
 .viewList{
     --background: linear-gradient(241deg, rgba(var(--ion-color-primary-rgb),1) 0%, rgba(var(--ion-color-secondary-rgb),1) 100%);
     grid-column: span 2;
+    margin-left: 76px;
 }
 
 
 .checkTutorials{
     --background: linear-gradient(241deg, rgba(var(--ion-color-secondary-rgb),1) 0%, rgba(var(--ion-color-tertiary-rgb),1) 100%);
     grid-column: span 2;
+    margin-left: 40px;
+    margin-right: 40px;
 }   

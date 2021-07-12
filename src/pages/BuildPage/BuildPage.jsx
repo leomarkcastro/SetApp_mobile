@@ -218,7 +218,7 @@ class BuildPage extends React.Component {
 
                     <IonToast
                         color="success"
-                        position="top"
+                        position="bottom"
                         isOpen={this.state.toast_open}
                         onDidDismiss={() => this.setState.apply({...this.state, toast_open:false})}
                         message="Configuration Succesfully Saved."

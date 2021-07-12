@@ -1,6 +1,6 @@
 [
     {
-        "Name": "Tips on Building Picking Computer Parts",
+        "Name": "Tips on Building And Picking Computer Parts",
         "Image": "https://media.istockphoto.com/vectors/cartoon-pc-components-seamless-pattern-background-vector-vector-id932725594",
         "Paragraph": [
             "<b>Pick a side: Intel or AMD.</b> Do your research on which CPU has the power and specs you need for your dream build. The CPU will be the core of your PC, so your selection is a very important decision. But it’s not the only component in your computer, so don’t blow your entire budget on it.",
@@ -25,13 +25,6 @@
             "<b>GRAPHICS CARD</b><br/>The GPU is the processor that specializes in rendering visuals and video onto the display. If you only use the PC for basic tasks, browsing, or light entertainment, a CPU with an integrated GPU or an accelerated processing unit, such as the Ryzen 5 2400G or Ryzen 3 2200G will suffice. However, when it comes to applications or tasks that require heavy graphical processing, such as 3D visualization (from Computer Aided Design to 3D rendering programs), large display mirroring (from monitor to television screen), or entertainment, you need to invest in a GPU.<br/>When you do decide to buy a GPU, it comes down to two choices: AMD and NVIDIA. Both companies offer a wide range of GPUs from entry-level to extremely high-end units. When it comes to a high-end, professional workstation, the GPU will be the most expensive component, so do enough research with specific benchmarks, user reviews, and buying guides.",
             "<b>CPU PROCESSOR</b><br/>Deciding on the CPU first will help you narrow down your choices on the motherboard, which is the centerpiece of your hardware connectivity. CPUs have various specifications, such as cores, clock speed, threads, and cache. We will focus on the important specifications that matter most today."
         ]
-    },
-    {
-        "Name": "Sample",
-        "Image": "https://static01.nyt.com/images/2016/06/14/science/14PAIN1/14PAIN1-articleLarge-v7.jpg?quality=75&auto=webp&disable=upscale",
-        "Paragraph": [
-            "Test1 <i>Hello</i>",
-            "Test1 <b>Hello</b>"
-        ]
     }
+    
 ]
