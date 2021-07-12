@@ -22,7 +22,7 @@ class Initializer extends React.Component {
 
     componentDidMount(){
         setTimeout(()=>{
-            this.props.history.push("/home")
+            this.props.history.replace("/home")
         }, 2000)
     }
 
